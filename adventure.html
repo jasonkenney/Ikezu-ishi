@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Hook Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #760000;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #000000;
+        }
+        #output {
+            margin-top: 30px;
+            font-size: 20px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        strong {
+            color: #760000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ikezu-ishi Adventure Hook Generator</h1>
+    <p>Click the button to generate a random adventure hook!</p>
+    <button onclick="generateAdventure()">Generate Adventure</button>
+    <div id="output"></div>
+
+    <script>
+        const tables = {
+            location: ["Market", "Tea House", "Tavern", "Courtyard", "Garden", "Prison", "Shrine", "Bathhouse", "Armory", "Port"],
+            contact: ["Village Elder", "Monk", "Merchant", "Bandit", "Herbalist", "Ronin", "Fisherman", "Farmer", "Stranger", "Daimyo's Emissary"],
+            event: ["Plague", "Rebellion", "Disappearance", "War", "Evacuation", "Murder", "Theft", "Kidnap", "Mystery", "Feud"],
+            cause: ["Monsters", "Monsters", "Rival Clan", "Unnatural", "Negligence", "Bandits", "Bandits", "The People", "Corrupt Ruler", "Outsiders"],
+            adjective: ["Ancient", "Sacred", "Forbidden", "Hidden", "Mystical", "Cursed", "Celestial", "Haunted", "Shimmering", "Ethereal", "Radiant", "Shadowy", "Frosted", "Ornate", "Crumbling", "Verdant", "Obsidian", "Crimson", "Legendary", "Blessed"],
+            location2: ["Shrine", "Cave", "Temple", "Grove", "Fortress", "Battlefield", "Waterfall", "Village", "Forest", "Lake", "Tomb", "Cliffside", "Island", "Mountain", "Pass", "Garden", "Ruins", "Riverbank", "Hot Springs", "Pagoda"],
+            action: ["Capture a foe", "Defeat an enemy", "Rescue a captive", "Gather intelligence", "Win a contest", "Act as escort", "Deliver a message", "Negotiate", "Perform a ritual", "Find item"],
+            item: ["Plague", "Rebellion", "Disappearance", "War", "Evacuation", "Murder", "Theft", "Kidnap", "Mystery", "Feud", "Toolkit", "Lantern", "Edict", "Scale", "Flute", "Mask", "Branch", "Banner", "Statue", "Pearl"]
+        };
+
+        function getRandomItem(table) {
+            return table[Math.floor(Math.random() * table.length)];
+        }
+
+        function bold(text) {
+            return `<strong>${text}</strong>`;
+        }
+
+        function generateAdventure() {
+            const location = bold(getRandomItem(tables.location));
+            const contact = bold(getRandomItem(tables.contact));
+            const event = bold(getRandomItem(tables.event));
+            const cause = bold(getRandomItem(tables.cause));
+            const adjective1 = bold(getRandomItem(tables.adjective));
+            const location2 = bold(getRandomItem(tables.location2));
+            const action = getRandomItem(tables.action);
+
+            let actionResult = bold(action);
+
+            let itemDescription = "";
+            if (action === "Find item") {
+                const adjective2 = bold(getRandomItem(tables.adjective));
+                const item = bold(getRandomItem(tables.item));
+                itemDescription = ` Find the ${adjective2} ${item}.`;
+            }
+
+            const result = `
+The players meet in a village ${location} with a ${contact}
+who speaks of ${event}, possibly caused by ${cause}.
+<p>Players must go to the ${adjective1} ${location2} and ${actionResult}.${itemDescription}
+            `.trim();
+
+            document.getElementById("output").innerHTML = result;
+        }
+    </script>
+
+<p><small><i>Inspired by <a href="https://web.archive.org/web/20160331195746/http://www.swordsandwizardry.com/rrscenariogenerator.pdf">Sean Willis's "Random Ruins & Ronin Scenario Starts Generator"</a></i></small>
+
+</body>
+</html>

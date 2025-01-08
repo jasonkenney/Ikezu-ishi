@@ -28,9 +28,7 @@ Although the term “dungeon” is used here, it can mean any dangerous or new l
 ### Dungeon Exploration Cycle
 
 1.  The Guide describes the party’s surroundings and any immediate dangers (combat, traps, surprises, etc.). The players then declare their character’s intended movements and **Actions**.
-
 2.  The Guide resolves the **Actions** of each character simultaneously, along with actions already in progress.
-
 3.  The players record any loss of resources and any new conditions (i.e. item use, deprivation, etc). The cycle then begins again. If appropriate, the Guide should roll a **Dungeon Event**.
 
 
@@ -39,11 +37,8 @@ Although the term “dungeon” is used here, it can mean any dangerous or new l
 Exploring a dungeon is always dangerous, and time must be weighed against the risks of encountering denizens, natural hazards, and worse. Roll on the **Dungeon Events** table below when the party:
 
 - Spends more than one cycle in a single room or location.
-
 - Moves into a new area, level, or zone.
-
 - Moves quickly or haphazardly through a room.
-
 - Creates a loud disturbance.
 
 

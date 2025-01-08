@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Ikezu-Ishi
+description: A feudal Japan inspired RPG built on Cairn, Into the Odd, and Block, Dodge, Parry
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/images/ii-logo.png"

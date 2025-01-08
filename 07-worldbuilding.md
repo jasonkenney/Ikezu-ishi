@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Worldbuilding and Adventuring
+title: Worldbuilding / Adventuring
 nav_order: 8
 ---
 

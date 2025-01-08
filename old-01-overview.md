@@ -1,8 +1,3 @@
----
-layout: default
-title: Overview and Principles
-nav_order: 2
----
 
 # Overview and Principles
 

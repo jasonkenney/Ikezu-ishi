@@ -10,7 +10,6 @@ nav_order: 8
 
 *\- Morihei Ueshiba*
 
-![P5032\#yIS1][image48]  
 Kawanabe Kyosai, Jigoku dayu (Hell Courtesan), 1874, woodblock print, ink and color on paper.
 
 Mortals and Monsters
@@ -23,21 +22,7 @@ The Guide may generate Human NPCs using the **Character Creation** guidelines, c
 
 3 HP, 0 Armor, 10 STR, 10 DEV, 10 WIL, d4 damage, d4 ryo loot if defeated
 
-![P5044\#yIS1][image49]  
-Tsukioka Yoshitoshi, *Battle at Uji Bridge*, 1882, woodblock print, color ink on paper.
-
-![P5048\#yIS1][image50]  
-Ashigaru (Soldier)
-
-Artist Unknown, *Ashigaru*
-
-Tsukioka Yoshitoshi, The Bandit Hakamadare *Yasasuke Stalks Hirai Yasumasa on the Autom Moor*, 1868, color woodcut triptych.
-
-Katsushika Hokusai, *Poem by Tenchi Tenno,* 1839, woodblock print, ink and color on paper.
-
-Katsushika Hokusai, *Kajikazawa in Kai Province*, Ca. 1830, woodblock print, ink and color on paper.
-
-Kuninao Utagawa, *Pirate Kezori – Kabuki*, 1885, woodblock print, ink and color on paper.
+**Ashigaru (Soldier)**
 
 4 HP, 1 Armor, 11 STR, 12 DEX, 9 WIL, Wakizashi (d6), d6 ryo
 

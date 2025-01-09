@@ -41,206 +41,133 @@ Thieves and highwaymen, operating outside the law for personal gain. Quick to ga
 
 Skilled and highly respected metalworkers crafting and repairing weapons, tools, and armor.
 
-Starting Gear
+**Starting Gear**
 
 - 3d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Small whetstone
-
 - Hammer
-
 - Oil for lubricating tools
-
 - Wakizashi (Sword) (d6)
-
 - Leather Apron (1, bulky)
 
 ### 3. Carpenter (Daiku)
 
 Skilled artisans and woodworkers who build houses, temples, and other structures.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Small chisel
-
 - Compass
-
 - Saw
-
 - Nata (Carpenter’s Hatchet) (d6)
-
 - Cloth Tunic
 
 ### 4. Cleric (Souryo)
 
 Priests or monks offering spiritual guidance and prayers. Well respected by most people, can more easily engender goodwill.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Pouch of medicinal herbs
-
 - Small scroll of poems
-
 - Shakujo (Ceremonial Staff) (d6, reach)
-
 - Kimono
-
-
 
 ### 5. Farmer (Hyakushou)
 
-
-
 Hardworking, they toil on the land to provide sustenance for their communities. Well respected for their food generation and tax income.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torches (3 uses)
-
 - Bundle of seeds
-
 - Waterskin
-
 - Sickle (d4)
-
 - Light cloth garb
-
-
 
 ### 6. Fisherman (Ryoushi)
 
 Navigating the rivers and seas seeking the best catch. Their life at sea makes them resourceful and adept at reading the weather and tides.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torches (3 uses)
-
 - Fishing rod
-
-- Fishing Net
-
+- Fishing net
 - Fishing spear (d6, reach)
-
 - Oil skin coat
-
-
 
 ### 7. Gambler (Tobakushi)
 
 Professional gamblers operating in teahouses and gambling dens. Can find hives of scum and villainy in most every town.
 
-Starting Gear
+**Starting Gear**
 
 - 3d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Marked coin
-
 - Origami crane
-
 - Pouch of dice
-
 - Tessen (Iron Fan) (d4)
-
 - Silk garments
-
 
 ### 8. Herbalist (Kusushi)
 
 Traditional medicine practitioners using herbs and natural remedies.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Mortar and pestle
-
 - Pouch of medicinal herbs
-
 - Small notebook of recipes and notes
-
 - Kama (Small Sickle) (d6)
-
 - Light cloth garb
-
-
 
 ### 9. Hunter (Shuryousha)
 
 Skilled hunters providing meat and furs, often survivalists living on the outskirts of settlements.
 
-Starting Gear
+**Starting Gear**
 
 - 3d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Snare wire
-
 - Vial of animal attractant
-
 - Pouch of dried herbs
-
 - Compass
-
 - Yumi (Longbow) (d6, bulky, ranged)
-
 - Hide Vest (1, bulky)
-
 
 ### 10. Merchant (Gyousha)
 
 Shopkeepers and traders dealing in various goods. Despite low status, typically wealthy and well connected.
 
-Starting Gear
+**Starting Gear**
 
 - 4d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Miniature scale
-
 - Silk cloth
-
 - Pouch of fragrant incense
-
 - Tessen (Iron Fan) (d4) *or* Tanto (d4)
-
 - Decorated Silk Robe
 
 

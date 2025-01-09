@@ -17,7 +17,7 @@ Citing this in an academic setting will more than likely result in a terrible ou
 
 Ikezu=Ishi is licensed under CC-BY-SA 4.0. You are free to copy, redistribute, remix, transform and build upon this material for any purpose, including commercially, under the condition that proper credit is given to Jason Kenney/Serial Prizes. You must also distribute your contributions under the same license (CC-BY-SA 4.0) as Block, Dodge, Parry itself.
 
-## Ikezu-Ishi rules available at:
+## Ikezu-Ishi rules are available at:
 - <a href="https://serialprizes.itch.io/ikezu-ishi" target="_blank">itch.io</a>
 
 - <a href="https://www.drivethrurpg.com/en/product/507620/ikezu-ishi" target="_blank">DriveThruRPG</a>

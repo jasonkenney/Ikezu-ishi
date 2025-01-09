@@ -71,8 +71,6 @@ The players meet in a village (9) **Armory** with a (9) **Stranger** who speaks 
 
 A region is typically dominated by one or more factions, each with their own unique Perks, Agenda, and Obstacles. Smaller regions should have 1-2 factions, while larger regions could have as many as 5-6 factions.
 
-<div id="faction-type-d20" class="section level3">
-
 ### Faction Type (D20)
 
 | D20 | TYPE      | D20 | TYPE           | D20 | TYPE            | D20 | TYPE     |

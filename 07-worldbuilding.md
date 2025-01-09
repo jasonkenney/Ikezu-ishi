@@ -449,16 +449,6 @@ For each encounter table, the Guide may roll a D20 for encounters that include y
 | 19 | In an eerie glow a **Reiki** stands in the distance, the ghost of a dead oni seeking an outlet for its fury. |
 | 20 | A **Wanyudo** rolls toward the party, its infernal flames casting eerie shadows. |
 
-<figure>
-<img src="../media/image44.png" style="width:4.49722in;height:1.5in" alt="A close up of a painting Description automatically generated" />
-<figcaption aria-hidden="true">A close up of a painting Description automatically generated</figcaption>
-</figure>
-
-Hasegawa Sadanobu I, *Kagura Hill at Mount Kikkyo*, Ca 1870-71, woodblock print, color ink on paper.
-
-</div>
-
-<div id="mountain-locations-and-landmarks-d12" class="section level3">
 
 ### Mountain Locations and Landmarks (D12)
 
@@ -477,14 +467,6 @@ Hasegawa Sadanobu I, *Kagura Hill at Mount Kikkyo*, Ca 1870-71, woodblock print,
 | 11 | **Mountain Tomb**: A hidden tomb carved into the mountainside, the resting place of a powerful ruler. |
 | 12 | **Skyspire**: A sharp, narrow peak that reaches high into the clouds, nearly impossible to climb but said to offer a breathtaking view of the entire land. |
 
-<figure>
-<img src="../media/image45.png" style="width:4.49722in;height:1.5in" alt="A close up of a drawing Description automatically generated" />
-<figcaption aria-hidden="true">A close up of a drawing Description automatically generated</figcaption>
-</figure>
-
-</div>
-
-<div id="mountain-encounters-d12-or-d20" class="section level3">
 
 ### Mountain Encounters (D12 or D20)
 
@@ -508,13 +490,7 @@ Hasegawa Sadanobu I, *Kagura Hill at Mount Kikkyo*, Ca 1870-71, woodblock print,
 | 19 | A snowstorm suddenly descends on the party, the spectral figure of a **Yuki-Onna** drifting on the frail ahead. |
 | 20 | An **Ushi-oni** emerges from its lair, skittering along spider-like legs, it’s ox head breathing toxic poison. |
 
-<img src="../media/image45.png" style="width:4.49722in;height:1.5in" />
 
-Koyama Shokei, *Winter Landscape*, Ca 1890s, woodblock print, color ink on paper.
-
-</div>
-
-<div id="plains-locations-and-landmarks-d12" class="section level3">
 
 ### Plains Locations and Landmarks (D12)
 
@@ -533,11 +509,7 @@ Koyama Shokei, *Winter Landscape*, Ca 1890s, woodblock print, color ink on paper
 | 11 | **Fallen Meteor Crater**: A large crater in the middle of the plains, the remnants of a fallen star. |
 | 12 | **Plains Monolith**: A lone, towering stone slab standing in the middle of the plains, its purpose unknown. |
 
-<img src="../media/image46.png" style="width:4.49722in;height:1.5in" />
 
-</div>
-
-<div id="plains-encounters-d12-or-d20" class="section level3">
 
 ### Plains Encounters (D12 or D20)
 
@@ -560,13 +532,7 @@ Koyama Shokei, *Winter Landscape*, Ca 1890s, woodblock print, color ink on paper
 | 19 | A huge **Omukade** crawls from a crevice, impossibly fast, dangerously ferocious. |
 | 20 | An **Oni** emerges with thunderous steps, an iron club in its hands. |
 
-<img src="../media/image46.png" style="width:4.49722in;height:1.5in" />
 
-Utagawa Hiroshige, *Korai-ji Temple Hill, Morokoshi Plain, and Distant View of Mount Oyama*, 1852, woodblock print, color ink on paper.
-
-</div>
-
-<div id="swamp-locations-and-landmarks-d12" class="section level3">
 
 ### Swamp Locations and Landmarks (D12)
 
@@ -585,14 +551,7 @@ Utagawa Hiroshige, *Korai-ji Temple Hill, Morokoshi Plain, and Distant View of M
 | 11 | **Petrified Forest**: A section of the swamp where all the trees have turned to stone, their twisted shapes frozen in eerie poses. |
 | 12 | **Abandoned Shrine**: A humble, overgrown shrine deep in the swamp. |
 
-<figure>
-<img src="../media/image47.png" style="width:4.49722in;height:1.5in" alt="A water and trees in a field Description automatically generated" />
-<figcaption aria-hidden="true">A water and trees in a field Description automatically generated</figcaption>
-</figure>
 
-</div>
-
-<div id="swamp-encounters-d12-or-d20" class="section level3">
 
 ### Swamp Encounters (D12 or D20)
 
@@ -614,16 +573,7 @@ Utagawa Hiroshige, *Korai-ji Temple Hill, Morokoshi Plain, and Distant View of M
 | 19 | Small blue orbs of flickering flame dance, a swarm of d6 **Onibi** threatening to swarm the party. |
 | 20 | An **Ushi-oni** emerges from its lair, skittering along spider-like legs, it’s ox head breathing toxic poison. |
 
-<figure>
-<img src="../media/image47.png" style="width:4.49723in;height:1.5in" alt="A water and trees in a field Description automatically generated" />
-<figcaption aria-hidden="true">A water and trees in a field Description automatically generated</figcaption>
-</figure>
 
-Utagawa Hiroshige, *The Rest Stop at Kawashibara and the Fuji Swamp*, Ca 1841-44, woodblock print, color ink on paper.
-
-</div>
-
-<div id="urban-locations-and-landmarks-d12" class="section level3">
 
 ### Urban Locations and Landmarks (D12)
 
@@ -642,11 +592,7 @@ Utagawa Hiroshige, *The Rest Stop at Kawashibara and the Fuji Swamp*, Ca 1841-44
 | 11 | **Floating Dockyard**: A wooden dock that extends into the bay. |
 | 12 | **Koi Pond Garden**: A peaceful garden with a pond full of koi. |
 
-<img src="../media/image48.png" style="width:4.49722in;height:1.5in" />
 
-</div>
-
-<div id="urban-encounters-d12-or-d20" class="section level3">
 
 ### Urban Encounters (D12 or D20)
 
@@ -669,16 +615,7 @@ Utagawa Hiroshige, *The Rest Stop at Kawashibara and the Fuji Swamp*, Ca 1841-44
 | 19 | In an eerie glow a **Reiki** stands in the distance, the ghost of a dead oni seeking an outlet for its fury. |
 | 20 | Your party stops and stares down an alleyway. You could have sworn you saw the floating head of a **Nukekubi**. |
 
-<figure>
-<img src="../media/image48.png" style="width:4.5in;height:1.5in" alt="A painting of people walking in a city Description automatically generated" />
-<figcaption aria-hidden="true">A painting of people walking in a city Description automatically generated</figcaption>
-</figure>
 
-Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on paper.
-
-</div>
-
-<div id="settlement-size-d10" class="section level3">
 
 ### Settlement Size (D10)
 
@@ -693,9 +630,6 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9   | Castle Town (5000-10000 people)              |
 | 10  | City (10000+ people)                         |
 
-</div>
-
-<div id="settlement-name-generator-3d20" class="section level3">
 
 ### Settlement Name Generator (3D20)
 
@@ -724,15 +658,9 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 19  | Prison of   | the Exquisite | Leaf       |
 | 20  | Library of  | the Broken    | Fortune    |
 
-</div>
 
-</div>
-
-<div id="the-people-and-their-stories" class="section level2">
 
 ## The People and Their Stories
-
-<div id="cryptic-advice-and-warnings-d10" class="section level3">
 
 ### Cryptic Advice and Warnings (D10)
 
@@ -749,9 +677,6 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | **9** | “The stars above hold the answers, but the light reveals only what we are ready to face.” |
 | **10** | “The past echoes in the present, and the future is written in the blood of those who dare to defy fate.” |
 
-</div>
-
-<div id="rumors-d10" class="section level3">
 
 ### Rumors (D10)
 
@@ -768,9 +693,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9 | A legendary beast, part dragon and part serpent, roams the mountains, terrorizing travelers, and demanding tribute from nearby villages. |
 | 10 | The local magistrate is rumored to be in league with a group of bandits, lining his pockets with their ill-gotten gains. |
 
-</div>
 
-<div id="local-events-d10" class="section level3">
 
 ### Local Events (D10)
 
@@ -787,9 +710,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9 | **Ghostly Sightings**: Rumors spread of apparitions haunting the village, causing fear and superstition among the residents who seek explanations and protection. |
 | 10 | **Planting**: Farmers labor in the fields, planting seedlings in preparation for the upcoming growing season, a crucial time for ensuring food security and prosperity. |
 
-</div>
 
-<div id="conflict-or-dilemma-d10" class="section level3">
 
 ### Conflict or Dilemma (D10)
 
@@ -806,9 +727,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9 | **Trade Blockade**: Bandits have blocked the area’s main routes, disrupting supplies. |
 | 10 | **Unnatural Phenomenon**: Strange and inexplicable occurrences unsettle the village. |
 
-</div>
 
-<div id="local-npc-encounter-d10" class="section level3">
 
 ### Local NPC Encounter (D10)
 
@@ -825,9 +744,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9 | **Local Craftsman**: A skilled artisan or craftsman offers to create or repair equipment for the party, showcasing their expertise in traditional crafts. |
 | 10 | **Emissary of a Lord**: A representative of a local noble seeks the party’s aid in carrying out a mission or delivering a message of importance. |
 
-</div>
 
-<div id="npc-reactions-2d6" class="section level3">
 
 ### NPC Reactions (2D6)
 
@@ -837,9 +754,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 3-5 | Wary     | 12   | Helpful  |
 | 6-8 | Curious  |      |          |
 
-</div>
 
-<div id="npc-drive-d20" class="section level3">
 
 ### NPC Drive (D20)
 
@@ -856,9 +771,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9 | **Justice** - Driven to uphold the law or right wrongs | 19 | **Curiosity** - Intrigued by the unknown and seeks answers |
 | 10 | **Family** - Desires to reunite with or protect their family | 20 | **Pleasure** - Motivated by a desire for enjoyment and entertainment |
 
-</div>
 
-<div id="npc-combat-tactics-d20" class="section level3">
 
 ### NPC Combat Tactics (D20)
 
@@ -875,9 +788,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 9   | Disguise      | 19  | Lure          |
 | 10  | Parry         | 20  | Ambush        |
 
-</div>
 
-<div id="npc-quirks-or-traits-d100" class="section level3">
 
 ### NPC Quirks or Traits (D100)
 
@@ -917,15 +828,11 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 32 | Asks rhetorical questions | 65 | Sucks on teeth | **98** | Wears clothes too big/small |  |
 | 33 | Always eating or drinking | 66 | Takes everything personally | **99-00** | Roll again twice |  |
 
-</div>
 
-</div>
-
-<div id="spark-tables" class="section level2">
 
 ## Spark Tables
 
-<div id="nouns-d100" class="section level3">
+
 
 ### Nouns (D100)
 
@@ -957,9 +864,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 24   | River     | 49   | Robe         | 74   | Merchant    | 99   | Mask         |
 | 25   | Scroll    | 50   | Bow          | 75   | Courtyard   | 00   | Brush        |
 
-</div>
 
-<div id="verbs-d100" class="section level3">
 
 ### Verbs (D100)
 
@@ -991,9 +896,7 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 24   | Flee        | 49   | Discover    | 74   | Crush       | 99   | Charm      |
 | 25   | Lurk        | 50   | Search      | 75   | Outmaneuver | 00   | Enthrall   |
 
-</div>
 
-<div id="adjectives-d100" class="section level3">
 
 ### Adjectives (D100)
 
@@ -1025,8 +928,3 @@ Utagawa Hiroshige, *View of Suruga-cho*, 1844, woodblock print, color ink on pap
 | 24   | Swift         | 49   | Dauntless    | 74   | Stalwart    | 99   | Unyielding    |
 | 25   | Unflinching   | 50   | Agile        | 75   | Enigmatic   | 00   | Charming      |
 
-</div>
-
-</div>
-
-</div>

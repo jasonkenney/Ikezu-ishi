@@ -22,7 +22,7 @@ Ikezu=Ishi is licensed under CC-BY-SA 4.0. You are free to copy, redistribute, r
 
 - <a href="https://www.drivethrurpg.com/en/product/507620/ikezu-ishi" target="_blank">DriveThruRPG</a>
 
-- Physical Copies availab on <a href="https://a.co/d/gtLPBEf" target="_blank">Amazon</a>)
+- Physical copies are available through <a href="https://a.co/d/gtLPBEf" target="_blank">Amazon</a>)
 
 ## Also available: 
 - <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank">Defenders of&nbsp;Koganemura</a>&nbsp;-&nbsp;A Seven Samurai Inspired Adventure for Ikezu-ishi.

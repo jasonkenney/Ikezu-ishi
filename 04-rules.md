@@ -53,7 +53,7 @@ However, there are situations in which the story might dictate that an attack is
 
 Resting for a few moments and having a drink of water restores lost HP but leaves the party exposed.
 
-Attribute loss (see [**Critical Damage**](https://jasonkenney.github.io/Ikezu-ishi/05-combat#critical-damage) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise.
+Attribute loss (see [**Critical Damage**](05-combat#critical-damage) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise.
 
 Some of these services may be free, while more expedient or mystical means of recovery may come at a cost.
 
@@ -127,4 +127,4 @@ Villages, strongholds, and ports of call barter and trade based on the local rar
 
 PCs can gain HP through experiences and knowledge that helps them stay alive in a dangerous world.
 
-- The first <a href="https://jasonkenney.github.io/Ikezu-ishi/05-combat#wounds">**Permanent Wound**</a> grants *<u>1d6 HP</u>*. This bonus only applies for the first Permanent Wound.
+- The first [**Permanent Wound**](05-combat#wounds) grants *<u>1d6 HP</u>*. This bonus only applies for the first Permanent Wound.

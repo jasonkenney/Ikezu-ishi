@@ -29,19 +29,12 @@ Thieves and highwaymen, operating outside the law for personal gain. Quick to ga
 **Starting Gear**
 
 - 3d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Forged documents
-
 - Disguise kit
-
 - Lucky charm
-
 - Tekko (Iron Knuckles) (d6)
-
 - Darkened Leather Armor (1, bulky)
 
 ### 2. Blacksmith (Kaji)

@@ -53,7 +53,7 @@ However, there are situations in which the story might dictate that an attack is
 
 Resting for a few moments and having a drink of water restores lost HP but leaves the party exposed.
 
-Attribute loss (see **Critical Damage**(https://jasonkenney.github.io/Ikezu-ishi/05-combat#critical-damage) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise.
+Attribute loss (see [**Critical Damage**](https://jasonkenney.github.io/Ikezu-ishi/05-combat#critical-damage) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise.
 
 Some of these services may be free, while more expedient or mystical means of recovery may come at a cost.
 

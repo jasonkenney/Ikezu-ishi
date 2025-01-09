@@ -28,7 +28,6 @@ Each of the three **attributes** are used in different circumstances.
 A **Save** is a roll to avoid bad outcomes from risky choices and circumstances. PCs roll a d20 for an appropriate attribute. If they roll ***<u>equal to or under that attribute</u>***, they pass. Otherwise, they fail.
 
 - A 1 is always a success.
-
 - A 20 is always a failure.
 
 If two opponents are each trying to overcome the other, whoever is most at risk should save.
@@ -53,7 +52,7 @@ However, there are situations in which the story might dictate that an attack is
 
 Resting for a few moments and having a drink of water restores lost HP but leaves the party exposed.
 
-Attribute loss (see [**Critical Damage**](05-combat#critical-damage) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise.
+Attribute loss (see [**Critical Damage**](05-combat#critical-damage)) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise.
 
 Some of these services may be free, while more expedient or mystical means of recovery may come at a cost.
 
@@ -86,7 +85,6 @@ When the PCs encounter an NPC whose reaction to the party is not obvious, the Gu
 | 2   | Hostile  | 9-11 | Kind     |
 | 3-5 | Wary     | 12   | Helpful  |
 | 6-8 | Curious  |      |          |
-
 
 ## Morale
 

@@ -19,11 +19,9 @@ Each of the three **attributes** are used in different circumstances.
 
 > Used for saves requiring poise, speed, and reflexes like dodging, climbing, sneaking, balancing, etc.
 
-
 ### *Willpower (WIL) /* 気合 *(Kiai – Fighting Spirit)*
 
 > Used for saves to persuade, deceive, interrogate, intimidate, charm, provoke, manipulate, etc.
-
 
 ## Saves
 
@@ -37,7 +35,6 @@ If two opponents are each trying to overcome the other, whoever is most at risk 
 
 If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant **Attribute**).
 
-
 ### When To Save
 
 It is assumed characters are capable of simple activities, smart decisions, and specialized tasks tied to their backgrounds that do not require a save roll.
@@ -45,9 +42,7 @@ It is assumed characters are capable of simple activities, smart decisions, and 
 A character should **Save** only if one or more of the following conditions are met:
 
 - When the outcome of an action is uncertain.
-
 - When something is at risk (a life, a danger, etc.).
-
 - When making a critical damage save during combat.
 
 Saves can happen both in and out of combat. A Save is almost never required when a character is under attack, as attacks hit automatically.
@@ -114,7 +109,6 @@ Sometimes there will be an element of randomness without rolling a **Save**, par
 For these situations roll a d6.
 
 - A low roll favors the PC
-
 - A high roll means bad luck for the PC
 
 The Guide decides what a specific result means for the situation at hand.
@@ -133,4 +127,4 @@ Villages, strongholds, and ports of call barter and trade based on the local rar
 
 PCs can gain HP through experiences and knowledge that helps them stay alive in a dangerous world.
 
-- The first **Permanent Wound** grants *<u>1d6 HP</u>*. This bonus only applies for the first Permanent Wound.
+- The first <a href="https://jasonkenney.github.io/Ikezu-ishi/05-combat#wounds">**Permanent Wound**</a> grants *<u>1d6 HP</u>*. This bonus only applies for the first Permanent Wound.

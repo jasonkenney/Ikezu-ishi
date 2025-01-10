@@ -14,6 +14,7 @@ The rules and tables in Ikezu-Ishi are meant to help players create a vibrant se
 Citing this in an academic setting will more than likely result in a terrible outcome, but if you want to play Samurai-ish and hunt Yokai-like creatures in an OSR style game then you’re in the right place.
 
 ## License
+
 {: .warning }
 Ikezu-Ishi is licensed under CC-BY-SA 4.0. You are free to copy, redistribute, remix, transform and build upon this material for any purpose, including commercially, under the condition that proper credit is given to Jason Kenney/Serial Prizes. You must also distribute your contributions under the same license (CC-BY-SA 4.0) as Block, Dodge, Parry itself.
 

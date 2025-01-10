@@ -16,8 +16,8 @@ nav_order: 3
 
 Player Characters (PCs) have just three attributes:
 
-### Strength (STR) / 筋力 (Kinryoku – Strength
-{: .no_toc })
+### Strength (STR) / 筋力 (Kinryoku – Strength)
+{: .no_toc }
 
 > Used for saves requiring physical power, like lifting gates, bending bars, resisting poison, etc.
 

@@ -9,7 +9,7 @@ nav_order: 6
 
 *The approach to combat and everyday life should be the same.* - Miyamoto Musashi
 
-- TOC
+1, TOC
 {:toc}
 
 
@@ -175,7 +175,7 @@ Wounds are intended to provide a **prompt for adventure**, with PCs gaining them
 
 
 ### First Permanent Wound
-{: .no_toc }
+
 The first time a PC receives a **Permanent Wound** they *<u>gain 1d6 HP</u>*. PC’s do not gain any more HP for subsequent **Wounds**. This represents the PC gaining experience and knowledge that helps them stay alive in a dangerous world.
 
 
@@ -190,7 +190,7 @@ A duel can occur for many reasons: sport, test of skill, fame or pride, to settl
 
 
 ### Dueling Saves
-{: .no_toc }
+
 A duel consist of 3 contests that challenge each of a PC’s Attributes:
 
 1.  **Jo** – Beginning/Staredown (WIL)
@@ -244,7 +244,7 @@ The **winner** of this contest rolls their **damage die** and a **d12** (as thei
 
 
 ### Types of Duels
-{: .no_toc }
+
 Consider any of the following duels, depending on your setting:
 
 - **Friendly Duel**. Do not roll **damage** after the **Kyu** – simply keep track of who *could’ve* landed a serious blow.

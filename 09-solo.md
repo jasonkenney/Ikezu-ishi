@@ -65,7 +65,7 @@ If you face a question that is not associated with any character attribute, you 
 
 After rolling, describe the nature of the event and the choices your make to determine the outcome.
 
-| EVENT (D6)  |  |
+| D6 | Event |
 | ----- | :---- |
 | **1** | Choice: You face a critical decision. |
 | **2** | Opportunity: You stumble upon a valuable resource, ally, or advantageous situation. |
@@ -80,7 +80,7 @@ After rolling, describe the nature of the event and the choices your make to det
 
 If you’ve arrived at an impasse in your adventure, simply roll 1d12 and apply the results to get things moving again.
 
-| “HELP, I’M STUCK\!” EVENT(D12) |  |
+| D12 | “HELP, I’M STUCK\!” |
 | ----- | :---- |
 | **1** | **The “Raymond Chandler” solution**: Raymond Chandler famously wrote, "When in doubt, have a man come through the door with a gun in his hand." In many cases this is just a combat encounter, but social “combat” is often more fitting. Or you could keep it literal: someone challenges your PC to a duel. Or they challenge an ally, in which case your PC is the second, or must try to stop the madness\! The ‘duel’ need not be pistols at dawn; it could be a high-stakes game of cards, a speeder race, a bake-off... |
 | **2** | **Villain thought defeated reappears**: This can either be from the campaign or your PC’s backstory. If you don’t have a convenient villain, it’s time to roll one up, and decide how they were defeated. The more melodramatic the proceedings, the more likely it is that they were (presumed) dead. |

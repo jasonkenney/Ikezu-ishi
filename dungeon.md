@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Dungeon Exploration
 parent: Procedures
 nav_order: 1

@@ -49,7 +49,7 @@ If you face a question that is not associated with any character attribute, you 
 
 ### Did the player find the thing?
 
-{: .note}
+{: .note }
 "Did the player find the thing?” Inspired by: Tiago Junges “Searching for Something,” *Ronin*, 2019, 8\.
 
 | D6 | Did the player find the thing? |
@@ -77,7 +77,7 @@ After rolling, describe the nature of the event and the choices your make to det
 
 ## Help, I’m Stuck\! (D12) 
 
-{: .note}
+{: .note }
 Used with permission from: Alea\_iactanda\_est, “I’m stuck,” r/Solo\_Roleplaying, March 13, 2024\.  https://www.reddit.com/r/Solo\_Roleplaying/comments/1bdro05/im\_stuck/
 
 If you’ve arrived at an impasse in your adventure, simply roll 1d12 and apply the results to get things moving again.

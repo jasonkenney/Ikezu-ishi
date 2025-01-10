@@ -4,7 +4,8 @@ title: Combat
 nav_order: 6
 ---
 
-# Combat{: .no_toc }
+# Combat
+{: .no_toc }
 
 *The approach to combat and everyday life should be the same.* - Miyamoto Musashi
 
@@ -91,7 +92,6 @@ Also note that only the weapon tag/effects of the highest result are used; it’
 **Blast**: Attacks with the **blast** quality affect all targets in the noted area, rolling separately for each affected character. Blast refers to anything from explosions to huge cleaving onslaughts to the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result.
 
 **Dual Weapons**: If attacking with two weapons at the same time, roll both damage dice and keep the single highest result.
-
 
 ## Critical Damage
 

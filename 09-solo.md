@@ -49,7 +49,7 @@ If you face a question that is not associated with any character attribute, you 
 
 ### Did the player find the thing?
 
-{: note}
+{: .note}
 "Did the player find the thing?” Inspired by: Tiago Junges “Searching for Something,” *Ronin*, 2019, 8\.
 
 | D6 | Did the player find the thing? |

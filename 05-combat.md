@@ -4,8 +4,7 @@ title: Combat
 nav_order: 6
 ---
 
-# Combat
-{: .no_toc }
+# Combat{: .no_toc }
 
 *The approach to combat and everyday life should be the same.* - Miyamoto Musashi
 

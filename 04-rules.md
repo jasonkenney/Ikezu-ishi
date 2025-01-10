@@ -3,7 +3,8 @@ layout: default
 title: Rules
 nav_order: 5
 ---
-# Rules{: .no_toc }
+# Rules
+{: .no_toc }
 
 *Ultimately you must forget about technique. The further you progress, the fewer teachings there are. The Great Path is really no path.* - Morihei Ueshiba
 
@@ -14,15 +15,18 @@ nav_order: 5
 
 Each of the three **attributes** are used in different circumstances.
 
-### Strength (STR) / 筋力 *(Kinryoku – Strength)*{: .no_toc }
+### Strength (STR) / 筋力 *(Kinryoku – Strength)*
+{: .no_toc }
 
 > Used for saves requiring physical power, like lifting gates, bending bars, resisting poison, etc.
 
-### Dexterity (DEX) / 敏捷力 (Binshouryoku - Agility){: .no_toc }
+### Dexterity (DEX) / 敏捷力 (Binshouryoku - Agility)
+{: .no_toc }
 
 > Used for saves requiring poise, speed, and reflexes like dodging, climbing, sneaking, balancing, etc.
 
-### *Willpower (WIL) /* 気合 *(Kiai – Fighting Spirit)*{: .no_toc }
+### *Willpower (WIL) /* 気合 *(Kiai – Fighting Spirit)*
+{: .no_toc }
 
 > Used for saves to persuade, deceive, interrogate, intimidate, charm, provoke, manipulate, etc.
 
@@ -37,7 +41,8 @@ If two opponents are each trying to overcome the other, whoever is most at risk 
 
 If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant **Attribute**).
 
-### When To Save{: .no_toc }
+### When To Save
+{: .no_toc }
 
 It is assumed characters are capable of simple activities, smart decisions, and specialized tasks tied to their backgrounds that do not require a save roll.
 

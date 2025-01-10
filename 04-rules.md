@@ -7,6 +7,17 @@ nav_order: 5
 
 *Ultimately you must forget about technique. The further you progress, the fewer teachings there are. The Great Path is really no path.* - Morihei Ueshiba
 
+- [Attributes](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#attributes)  
+- [Saves](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#saves)  
+- [Healing and Recovery](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#healing-and-recovery)  
+- [Deprivation and Fatigue](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#deprivation-and-fatigue)  
+- [Armor](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#armor)  
+- [NPC Reactions](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#npc-reactions)  
+- [Morale](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#morale)  
+- [Retainers](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#retainers)  
+- [Luck – 運 (Un)](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#luck-–-運-un)  
+- [Wealth and Treasure](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#wealth-and-treasure)  
+
 ## Attributes
 
 Each of the three **attributes** are used in different circumstances.

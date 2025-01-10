@@ -38,7 +38,7 @@ If you face a question that is not associated with any character attribute, you 
 
 ### Did the player dodge?
 
-| D6 |  Did the player dodge? |
+| D6 | Did the player dodge? |
 | ----- | :---- |
 | **1** | Yes, and it caught the NPC off guard, giving them \+1 damage to their next attack. |
 | **2** | Yes. |

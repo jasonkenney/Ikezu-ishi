@@ -12,7 +12,7 @@ nav_order: 4
 1. TOC
 {:toc)
 
-### 1. Bandit (Sanzoku)
+## 1. Bandit (Sanzoku)
 
 Thieves and highwaymen, operating outside the law for personal gain. Quick to gain knowledge of terrain and listen for approaching prey.
 
@@ -27,7 +27,7 @@ Thieves and highwaymen, operating outside the law for personal gain. Quick to ga
 - Tekko (Iron Knuckles) (d6)
 - Darkened Leather Armor (1, bulky)
 
-### 2. Blacksmith (Kaji)
+## 2. Blacksmith (Kaji)
 
 Skilled and highly respected metalworkers crafting and repairing weapons, tools, and armor.
 
@@ -42,7 +42,7 @@ Skilled and highly respected metalworkers crafting and repairing weapons, tools,
 - Wakizashi (Sword) (d6)
 - Leather Apron (1, bulky)
 
-### 3. Carpenter (Daiku)
+## 3. Carpenter (Daiku)
 
 Skilled artisans and woodworkers who build houses, temples, and other structures.
 
@@ -57,7 +57,7 @@ Skilled artisans and woodworkers who build houses, temples, and other structures
 - Nata (Carpenter’s Hatchet) (d6)
 - Cloth Tunic
 
-### 4. Cleric (Souryo)
+## 4. Cleric (Souryo)
 
 Priests or monks offering spiritual guidance and prayers. Well respected by most people, can more easily engender goodwill.
 
@@ -71,7 +71,7 @@ Priests or monks offering spiritual guidance and prayers. Well respected by most
 - Shakujo (Ceremonial Staff) (d6, reach)
 - Kimono
 
-### 5. Farmer (Hyakushou)
+## 5. Farmer (Hyakushou)
 
 Hardworking, they toil on the land to provide sustenance for their communities. Well respected for their food generation and tax income.
 
@@ -85,7 +85,7 @@ Hardworking, they toil on the land to provide sustenance for their communities. 
 - Sickle (d4)
 - Light cloth garb
 
-### 6. Fisherman (Ryoushi)
+## 6. Fisherman (Ryoushi)
 
 Navigating the rivers and seas seeking the best catch. Their life at sea makes them resourceful and adept at reading the weather and tides.
 
@@ -99,7 +99,7 @@ Navigating the rivers and seas seeking the best catch. Their life at sea makes t
 - Fishing spear (d6, reach)
 - Oil skin coat
 
-### 7. Gambler (Tobakushi)
+## 7. Gambler (Tobakushi)
 
 Professional gamblers operating in teahouses and gambling dens. Can find hives of scum and villainy in most every town.
 
@@ -114,7 +114,7 @@ Professional gamblers operating in teahouses and gambling dens. Can find hives o
 - Tessen (Iron Fan) (d4)
 - Silk garments
 
-### 8. Herbalist (Kusushi)
+## 8. Herbalist (Kusushi)
 
 Traditional medicine practitioners using herbs and natural remedies.
 
@@ -129,7 +129,7 @@ Traditional medicine practitioners using herbs and natural remedies.
 - Kama (Small Sickle) (d6)
 - Light cloth garb
 
-### 9. Hunter (Shuryousha)
+## 9. Hunter (Shuryousha)
 
 Skilled hunters providing meat and furs, often survivalists living on the outskirts of settlements.
 
@@ -145,7 +145,7 @@ Skilled hunters providing meat and furs, often survivalists living on the outski
 - Yumi (Longbow) (d6, bulky, ranged)
 - Hide Vest (1, bulky)
 
-### 10. Merchant (Gyousha)
+## 10. Merchant (Gyousha)
 
 Shopkeepers and traders dealing in various goods. Despite low status, typically wealthy and well connected.
 
@@ -162,236 +162,165 @@ Shopkeepers and traders dealing in various goods. Despite low status, typically 
 
 
 
-### 11. Miner (Kofu)
+## 11. Miner (Kofu)
 
 Workers extracting resources from mines, often under harsh conditions.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Salt for purifying water
-
 - Pickaxe
-
 - Sturdy twine
-
 - Kusarigama (Sickle on a Chain) (d6, reach)
-
 - Reinforced Leather Coveralls (1, bulky)
 
 
-
-### 12. Mountain Ascetic (Yamabushi)
+## 12. Mountain Ascetic (Yamabushi)
 
 Hermits seeking spiritual enlightenment in remote mountainous areas. Often act as guides.
 
-Starting Gear
+**Starting Gear**
 
 - 1d6 Ryo
-
 - Rations (3 uses)
-
 - Torches (3 uses)
-
 - Pouch of herbs
-
 - Scroll of sutras
-
 - Rope (25 ft)
-
 - Shakujo (Ceremonial Staff) (d6, reach) *or* Ono (d8)
-
 - Simple worn robes
 
 
 
-### 13. Ninja (Shinobi)
+## 13. Ninja (Shinobi)
 
 Covert agents skilled in espionage, sabotage, and assassination. Easily blend in with crowds and environment.
 
-Starting Gear
+**Starting Gear**
 
 - 3d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Lockpicks
-
 - Ninjato (Short Sword) (d6)
-
 - Shuriken (d4, ranged) *or* Kunai (d4)
-
 - Ninja Garb
 
 
 
-### 14. Performer (Geinoujin)
+## 14. Performer (Geinoujin)
 
 Actors performing comedy and acrobatics. Has the means and skills to impersonate classes outside of their own.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torch (3 uses)
-
 - Makeup
-
 - Small instrument (player’s choice)
-
 - Notebook of songs
-
 - Bo (Staff) (d6, reach)
-
 - Embroidered Cloth Garments
 
 
 
-### 15. Pirate (Kaizoku)
+## 15. Pirate (Kaizoku)
 
 Corsairs and pirates operating on the seas, defying trade regulations. Knows all the good hiding spots along the coast.
 
-Starting Gear
+**Starting Gear**
 
 - 3d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Spyglass
-
 - Pouch of spices
-
 - Compass
-
 - Naginata (Polearm) (d10, bulky, reach)
-
 - Leather Jacket (1, bulky)
 
 
 
-### 16. Ronin (Ronin)
+## 16. Ronin (Ronin)
 
 Masterless samurai working for hire, sometimes outlaws due to their independent nature.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Scroll, inkwell, and brush
-
 - Whetstone
-
 - Book of philosophical text
-
 - Katana (Sword) (d8)
-
 - Ashigaru Armor (2, bulky) *or* Darkened Leather Armor (1, bulky)
 
 
 
-### 17. Samurai (Samurai)
+## 17. Samurai (Samurai)
 
 Elite warriors and skilled swordsmen, samurai serve as protectors, administrators, and soldiers.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Whetstone
-
 - Calligraphy set
-
 - Book of philosophical text
-
 - Katana (Sword) (d8) *or* Yumi (Longbow) (d6, bulky, ranged)
-
 - Yoroi Armor (3, bulky) *or* Darkened Leather Armor (1, bulky)
 
 
-
-### 18. Servant (Kerai)
+## 18. Servant (Kerai)
 
 Domestic servants or retainers working in households, performing various tasks.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torches (3 uses)
-
 - Sewing kit
-
 - Tea kit
-
 - Pouch of herbs
-
 - Tessen (Iron Fan) (d4)
-
 - Simple Linen Tunic
 
 
-### 19. Soldier (Ashigaru)
+## 19. Soldier (Ashigaru)
 
 Foot soldiers often recruited from the peasant class, backbone of military forces.
 
-Starting Gear
+**Starting Gear**
 
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Torches (3 uses)
-
 - Jingasa (Hat)
-
 - Water flask
-
 - Small cooking pot
-
 - Yari (Spear) (d6, reach)
-
 - Do-Maru (2, bulky)
 
 
 
-### 20. Tea Master (Chajin)
+## 20. Tea Master (Chajin)
 
 Artists of hospitality, performing intricate tea ceremonies that promote tranquility and mindfulness.
 
-Starting Gear
-
+**Starting Gear**
 - 2d6 Ryo
-
 - Rations (3 uses)
-
 - Tinderbox and flint
-
 - Tea set
-
 - Pouch of incense
-
 - Tessen (Iron Fan) (d4)
-
 - Simple Linen Tunic
 

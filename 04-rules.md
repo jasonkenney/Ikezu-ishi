@@ -3,35 +3,26 @@ layout: default
 title: Rules
 nav_order: 5
 ---
-# Rules
+# Rules{: .no_toc }
 
 *Ultimately you must forget about technique. The further you progress, the fewer teachings there are. The Great Path is really no path.* - Morihei Ueshiba
 
-- [Attributes](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#attributes)  
-- [Saves](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#saves)  
-- [Healing and Recovery](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#healing-and-recovery)  
-- [Deprivation and Fatigue](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#deprivation-and-fatigue)  
-- [Armor](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#armor)  
-- [NPC Reactions](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#npc-reactions)  
-- [Morale](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#morale)  
-- [Retainers](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#retainers)  
-- [Luck – 運 (Un)](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#luck-–-運-un)  
-- [Wealth and Treasure](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#wealth-and-treasure)
-- [Gaining XP](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#gaining-hp)
+- TOC
+{:toc} 
 
 ## Attributes
 
 Each of the three **attributes** are used in different circumstances.
 
-### Strength (STR) / 筋力 *(Kinryoku – Strength)*
+### Strength (STR) / 筋力 *(Kinryoku – Strength)*{: .no_toc }
 
 > Used for saves requiring physical power, like lifting gates, bending bars, resisting poison, etc.
 
-### Dexterity (DEX) / 敏捷力 (Binshouryoku - Agility)
+### Dexterity (DEX) / 敏捷力 (Binshouryoku - Agility){: .no_toc }
 
 > Used for saves requiring poise, speed, and reflexes like dodging, climbing, sneaking, balancing, etc.
 
-### *Willpower (WIL) /* 気合 *(Kiai – Fighting Spirit)*
+### *Willpower (WIL) /* 気合 *(Kiai – Fighting Spirit)*{: .no_toc }
 
 > Used for saves to persuade, deceive, interrogate, intimidate, charm, provoke, manipulate, etc.
 
@@ -46,7 +37,7 @@ If two opponents are each trying to overcome the other, whoever is most at risk 
 
 If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant **Attribute**).
 
-### When To Save
+### When To Save{: .no_toc }
 
 It is assumed characters are capable of simple activities, smart decisions, and specialized tasks tied to their backgrounds that do not require a save roll.
 

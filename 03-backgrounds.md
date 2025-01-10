@@ -5,22 +5,12 @@ nav_order: 4
 ---
 
 # Backgrounds
+{: .no_toc }
 
 *Study hard and all things can be accomplished. Give up and you will amount to nothing.* - Yamaoka Tesshu
 
-| D20 | BACKGROUND          | D20 | BACKGROUND                   |
-|:----|:--------------------|:----|:-----------------------------|
-| 1   | Bandit (Sanzoku)    | 11  | Miner (Kofu)                 |
-| 2   | Blacksmith (Kaji)   | 12  | Mountain Ascetic (Yamabushi) |
-| 3   | Carpenter (Daiku)   | 13  | Ninja (Shinobi)              |
-| 4   | Cleric (Souryo)     | 14  | Performer (Geinoujin)        |
-| 5   | Farmer (Hyakushou)  | 15  | Pirate (Kaizoku)             |
-| 6   | Fisherman (Ryoushi) | 16  | Ronin (Ronin)                |
-| 7   | Gambler (Tobakushi) | 17  | Samurai (Samurai)            |
-| 8   | Herbalist (Kusushi) | 18  | Servant (Kerai)              |
-| 9   | Hunter (Shuryousha) | 19  | Soldier (Ashigaru)           |
-| 10  | Merchant (Gyousha)  | 20  | Tea Master (Chajin)          |
-
+1, TOC
+{:toc)
 
 ### 1. Bandit (Sanzoku)
 

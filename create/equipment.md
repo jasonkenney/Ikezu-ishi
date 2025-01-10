@@ -1,8 +1,4 @@
----
-layout: default
-title: Weapons and Equipment
-nav_order: 3
----
+
 
 # Weapons and Equipment
 {: .no_toc }

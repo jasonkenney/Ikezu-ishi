@@ -9,7 +9,7 @@ nav_order: 6
 
 *The approach to combat and everyday life should be the same.* - Miyamoto Musashi
 
-1, TOC
+1. TOC
 {:toc}
 
 

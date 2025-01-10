@@ -5,10 +5,13 @@ nav_order: 8
 ---
 
 # Worldbuilding And Adventuring
+{: .no_toc }
 
-See first with your mind, then with your eyes, and finally with your body.
-
+*See first with your mind, then with your eyes, and finally with your body.*
 \- Yagyu Munenori
+
+1. TOC
+{:toc}
 
 The following pages include tools, tables, and advice for Guides running Ikezu-Ishi. This chapter offers resources and instructions for creating adventures and building dynamic worlds.
 

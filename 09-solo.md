@@ -23,8 +23,6 @@ Ikezu-ishi includes Yes/No oracles, tables to help generate random events, get P
 
 ## Yes/No Oracle (D6)  
 
-**“Did the player find the thing?” Inspired by:** Tiago Junges “Searching for Something,” *Ronin*, 2019, 8\.
-
 If you face a question that is not associated with any character attribute, you can use a Luck Roll as a Yes/No Oracle with 1d6.
 
 | D6 | RESULT |
@@ -50,6 +48,8 @@ If you face a question that is not associated with any character attribute, you 
 | **6** | No, and they stumbled, fell, etc. and take \+1 damage from the attack. |
 
 ### Did the player find the thing?
+
+> "Did the player find the thing?” Inspired by: Tiago Junges “Searching for Something,” *Ronin*, 2019, 8\.
 
 | D6 | Did the player find the thing? |
 | ----- | :---- |

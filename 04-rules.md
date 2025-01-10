@@ -8,7 +8,7 @@ nav_order: 5
 
 *Ultimately you must forget about technique. The further you progress, the fewer teachings there are. The Great Path is really no path.* - Morihei Ueshiba
 
-- TOC
+1 TOC
 {:toc} 
 
 ## Attributes

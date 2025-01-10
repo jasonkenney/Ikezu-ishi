@@ -9,7 +9,7 @@ nav_order: 2
 
 *A man is a castle, a man is a stone wall, a man is a moat, mercy is your friend, revenge is your enemy.* - Takeda Shingen
 
-- TOC 
+1. TOC 
 {:toc}
 
 ## Roll Attributes
@@ -17,17 +17,14 @@ nav_order: 2
 Player Characters (PCs) have just three attributes:
 
 ### Strength (STR) / 筋力 (Kinryoku – Strength)
-{: .no_toc }
 
 > Used for saves requiring physical power, like lifting gates, bending bars, resisting poison, etc.
 
 ### Dexterity (DEX) / 敏捷力 (Binshouryoku - Agility)
-{: .no_toc }
 
 > Used for saves requiring poise, speed, and reflexes like dodging, climbing, sneaking, balancing, etc.
 
 ### Willpower (WIL) / 気合 (Kiai – Fighting Spirit)
-{: .no_toc }
 
 > Used for saves to persuade, deceive, interrogate, intimidate, charm, provoke, manipulate, etc.
 

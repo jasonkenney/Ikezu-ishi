@@ -9,7 +9,7 @@ nav_order: 4
 
 *Study hard and all things can be accomplished. Give up and you will amount to nothing.* - Yamaoka Tesshu
 
-1. TOC
+- TOC
 {:toc}
 
 ## 1. Bandit (Sanzoku)

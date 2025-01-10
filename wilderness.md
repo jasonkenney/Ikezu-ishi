@@ -1,5 +1,5 @@
 ---
-Layout: default
+layout: default
 title: Wilderness Exploration
 parent: Procedures
 nav_order: 2

@@ -8,6 +8,10 @@ nav_order: 6
 
 *The approach to combat and everyday life should be the same.* - Miyamoto Musashi
 
+- TOC
+{:toc}
+
+
 ## Rounds
 
 A **round** is roughly ten seconds of in-game time and is comprised of **turns**. Each round starts with all PCs that are able to act, followed by their opponents. *The result of each side’s actions occur simultaneously.*

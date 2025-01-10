@@ -5,9 +5,13 @@ nav_order: 9
 ---
 
 
-# Solo Play {#solo-play}
+# Solo Play
+{: .no_toc }
 *It is good to face challenges in your youth. He who has never suffered will not sufficiently temper his character.*
 *\- Yamamoto Tsunetomo*
+
+1. TOC
+{:toc}
 
 ## Going Alone
 

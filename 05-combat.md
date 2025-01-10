@@ -5,6 +5,7 @@ nav_order: 6
 ---
 
 # Combat
+{: .no_toc }
 
 *The approach to combat and everyday life should be the same.* - Miyamoto Musashi
 
@@ -190,7 +191,7 @@ A duel can occur for many reasons: sport, test of skill, fame or pride, to settl
 
 
 ### Dueling Saves
-
+{: .no_toc }
 A duel consist of 3 contests that challenge each of a PC’s Attributes:
 
 1.  **Jo** – Beginning/Staredown (WIL)
@@ -212,7 +213,7 @@ A combatant **wins** if they roll **equal or under** their **Attribute** while t
 
 
 ### Jo
-
+{: .no_toc }
 ***Koiguchi no kirikata*** or “cutting the carp’s mouth” is the motion of “unlocking” a katana from the *koiguchi* of its *saya* (scabbard) by pressing the *tsuba* (handguard) with one’s thumb.
 
 The *koiguchi* (named for its shape like a koi’s mouth) is meant to be perfectly fitted so the saya can be turned upside down without the blade falling out.
@@ -224,7 +225,7 @@ Both participants roll a save against **WIL**.
 
 
 ### Ha
-
+{: .no_toc }
 Slow is smooth, and smooth is fast – but sometimes, slow just means *dead*. The **winner** of this contest is just *that* split-second quicker – and primed to land a devastating blow and gains **-1** on the next **Save**.
 
 Both participants roll a save against **DEX**.
@@ -232,7 +233,7 @@ Both participants roll a save against **DEX**.
 
 
 ### Kyu
-
+{: .no_toc }
 Speed is one thing, but landing a blow still requires a certain degree of physical control: a strong follow-through, a decisive slash, a punishing blow.
 
 Both participants roll a save against **STR**.
@@ -244,7 +245,7 @@ The **winner** of this contest rolls their **damage die** and a **d12** (as thei
 
 
 ### Types of Duels
-
+{: .no_toc }
 Consider any of the following duels, depending on your setting:
 
 - **Friendly Duel**. Do not roll **damage** after the **Kyu** – simply keep track of who *could’ve* landed a serious blow.

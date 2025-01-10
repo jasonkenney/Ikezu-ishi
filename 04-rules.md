@@ -16,7 +16,8 @@ nav_order: 5
 - [Morale](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#morale)  
 - [Retainers](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#retainers)  
 - [Luck – 運 (Un)](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#luck-–-運-un)  
-- [Wealth and Treasure](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#wealth-and-treasure)  
+- [Wealth and Treasure](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#wealth-and-treasure)
+- [Gaining XP](https://jasonkenney.github.io/Ikezu-ishi/04-rules.html#gaining-hp)
 
 ## Attributes
 

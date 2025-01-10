@@ -73,7 +73,7 @@ Also note that only the weapon tag/effects of the highest result are used; it’
 
 - **Piercing**. Rolling the maximum value on your damage roll makes your attack ignore all armor. This ability only works if you use the regular damage die for the weapon (i.e., if you are using Impaired/Enhanced, not on an Impaired d4 attack.)
 
-**Weapon Skill**: Many weapons have a specific Skill that provides an additional impact on combat. See **Weapons** (page [8](ch003.xhtml#id__Ref176341154)) for more information.
+**Weapon Skill**: Many weapons have a specific Skill that provides an additional impact on combat.
 
 - **Counter X:** Damage rolls of X or less against you are bounced back against your attacker.
 

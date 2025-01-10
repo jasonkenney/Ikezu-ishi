@@ -8,7 +8,7 @@ nav_order: 5
 
 *Ultimately you must forget about technique. The further you progress, the fewer teachings there are. The Great Path is really no path.* - Morihei Ueshiba
 
-1 TOC
+1. TOC
 {:toc} 
 
 ## Attributes
@@ -42,7 +42,6 @@ If two opponents are each trying to overcome the other, whoever is most at risk 
 If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant **Attribute**).
 
 ### When To Save
-{: .no_toc }
 
 It is assumed characters are capable of simple activities, smart decisions, and specialized tasks tied to their backgrounds that do not require a save roll.
 

@@ -1,8 +1,4 @@
----
-layout: default
-title: Mortals and Monsters
-nav_order: 8
----
+
 
 # Mortals and Monsters {#mortals-and-monsters}
 

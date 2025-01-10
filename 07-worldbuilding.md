@@ -14,7 +14,8 @@ The following pages include tools, tables, and advice for Guides running Ikezu-I
 
 ## Scenario Start Generator
 
-> Inspired by: Sean Wills, “Random Ruins & Ronin Scenario Starts Generator,” Swords and Wizardry, archived March 31, 2016.
+{: .note }
+Inspired by: Sean Wills, “Random Ruins & Ronin Scenario Starts Generator,” Swords and Wizardry, archived March 31, 2016.
 
 The Guide may use the following table to create the beginning of a scenario, providing a starting location, a contact, and a mission.
 
@@ -113,18 +114,6 @@ Agents are often in charge of completing one or more of the goals of the agenda 
 
 ### Faction Perks
 
-**Example Faction**
-
-**Type:** Rulers: *Shihai Clan*. Disciplined, martial, stubborn.
-
-**Perks: Conviction**: Firmly believe in their duty (and right) to lead the nation. **Position**: Traditionally observed as the leaders of the realm. **Wealth**: Their lands are among the most abundant throughout the nation.
-
-**Agents:** (Lord) Shihai Daichi, heir to the Shihai daimyo title.
-
-**Agenda:** Preserve order and reassert authority over the nation.
-
-**Obstacles:** Opposed by other clans seeking authority.
-
 Factions possess perks that assist them in accomplishing their agenda. Perks reflect a faction’s influence, materials, wealth, and other unique features. Factions leverage their perks as much as possible when trying to achieve their goals, and at the same time continually work to acquire more perks.
 
 Roll d20 for the number of perks the faction has, then roll d20 again for the types of perks. Reroll repeated results.
@@ -178,6 +167,19 @@ Roll d20 for each column and combine.
 | **18** | Sell services/goods | Must be carried out in absolute secrecy. |
 | **19** | Share knowledge/beliefs | Requires a specialist of an uncommon sort. |
 | **20** | Survive | The outcome would lead to unavoidable conflict. |
+
+{: .note )
+> **Example Faction**
+> 
+> **Type:** Rulers: *Shihai Clan*. Disciplined, martial, stubborn.
+> 
+> **Perks: Conviction**: Firmly believe in their duty (and right) to lead the nation. **Position**: Traditionally observed as the leaders of the realm. **Wealth**: Their lands are among the most abundant throughout the nation.
+> 
+> **Agents:** (Lord) Shihai Daichi, heir to the Shihai daimyo title.
+> 
+> **Agenda:** Preserve order and reassert authority over the nation.
+> 
+> **Obstacles:** Opposed by other clans seeking authority.
 
 ### Faction Rules
 

@@ -4,7 +4,7 @@ parent: Procedures
 nav_order: 1
 ---
 
-## Dungeon Exploration
+# Dungeon Exploration
 
 Although the term “dungeon” is used here, it can mean any dangerous or new locale (cities, castles, mansions, farmhouses, adventure site, etc.).
 

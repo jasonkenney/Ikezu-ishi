@@ -7,7 +7,7 @@ nav_order: 2
 
 
 
-## Wilderness Exploration
+# Wilderness Exploration
 
 ### Watches
 

@@ -176,7 +176,7 @@ Wounds are intended to provide a **prompt for adventure**, with PCs gaining them
 
 
 ### First Permanent Wound
-
+{: .no_toc }
 The first time a PC receives a **Permanent Wound** they *<u>gain 1d6 HP</u>*. PC’s do not gain any more HP for subsequent **Wounds**. This represents the PC gaining experience and knowledge that helps them stay alive in a dangerous world.
 
 

@@ -171,18 +171,18 @@ Roll d20 for each column and combine.
 | **19** | Share knowledge/beliefs | Requires a specialist of an uncommon sort. |
 | **20** | Survive | The outcome would lead to unavoidable conflict. |
 
-{: .note )
-> **Example Faction**
-> 
-> **Type:** Rulers: *Shihai Clan*. Disciplined, martial, stubborn.
-> 
-> **Perks: Conviction**: Firmly believe in their duty (and right) to lead the nation. **Position**: Traditionally observed as the leaders of the realm. **Wealth**: Their lands are among the most abundant throughout the nation.
-> 
-> **Agents:** (Lord) Shihai Daichi, heir to the Shihai daimyo title.
-> 
-> **Agenda:** Preserve order and reassert authority over the nation.
-> 
-> **Obstacles:** Opposed by other clans seeking authority.
+
+### Example Faction
+
+**Type:** Rulers: *Shihai Clan*. Disciplined, martial, stubborn.
+
+**Perks: Conviction**: Firmly believe in their duty (and right) to lead the nation. **Position**: Traditionally observed as the leaders of the realm. **Wealth**: Their lands are among the most abundant throughout the nation.
+
+**Agents:** (Lord) Shihai Daichi, heir to the Shihai daimyo title.
+
+**Agenda:** Preserve order and reassert authority over the nation.
+
+**Obstacles:** Opposed by other clans seeking authority.
 
 ### Faction Rules
 

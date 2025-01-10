@@ -38,14 +38,28 @@ If you face a question that is not associated with any character attribute, you 
 
 ## Yes/No Oracle Variations
 
-| Did the player dodge?  |  | Did the player find the thing?  |  |  |
-| ----- | :---- | ----- | :---- | ----- |
-| **1** | Yes, and it caught the NPC off guard, giving them \+1 damage to their next attack. | **1** | Yes, but first they have to face an enemy. |  |
-| **2** | Yes | **2** | Yes, but they drew a lot of attention |  |
-| **3** | Yes, but they hurt themselves in the process and take 1 HP damage. | **3** | Yes, but it’s not quite what they expected. |  |
-| **4** | No, but they avoided the worst of it and take \-1 damage from the attack. | **4** | They don’t find it. |  |
-| **5** | No | **5** | They don’t find it and draw a lot of attention. |  |
-| **6** | No, and they stumbled, fell, etc. and take \+1 damage from the attack. | **6** | They don’t find it and have to face an enemy. |  |
+### Did the player dodge?
+
+| D6 |  Did the player dodge? |
+| ----- | :---- |
+| **1** | Yes, and it caught the NPC off guard, giving them \+1 damage to their next attack. |
+| **2** | Yes. |
+| **3** | Yes, but they hurt themselves in the process and take 1 HP damage. |
+| **4** | No, but they avoided the worst of it and take \-1 damage from the attack. |
+| **5** | No. |
+| **6** | No, and they stumbled, fell, etc. and take \+1 damage from the attack. |
+
+### Did the player find the thing?
+
+| D6 | Did the player find the thing? |
+| ----- | :---- |
+| **1** | Yes, but first they have to face an enemy. |
+| **2** | Yes, but they drew a lot of attention. |
+| **3** | Yes, but it’s not quite what they expected. |
+| **4** | They don’t find it. |
+| **5** | They don’t find it and draw a lot of attention. |
+| **6** | They don’t find it and have to face an enemy. |
+
 
 ## Random Event Generator
 
@@ -74,9 +88,6 @@ If you’ve arrived at an impasse in your adventure, simply roll 1d12 and apply 
 | **4** | **Betrayal**: Someone you thought an ally stabs you in the back, literally or otherwise. Why? How? Are they working with the villain now, or this a separate issue? How will you succeed without their support? How will you take revenge? |
 | **5** | **Ally comes to character for help**: Someone close to you needs help badly. It may or not have any relation to the main plot. Who is it? How do they get the message to you (in person, telepathically, a thug delivering a ransom note…)? What do they need? Can you afford to drop everything to help them right now? What are the consequences if you don’t, or can’t, or refuse? |
 | **6** | **Villain comes to character for help**: In addition to the questions of the entry above, you also need to figure out what could possibly motivate them to ask you for help. Does this mean you’re friends now, or will things go back to normal once the crisis is over? The problem should be dire enough that not helping would cause more, perhaps even worse, problems for your PC and/or the world. |
-
-| EVENT (D12) |  |
-| ----- | :---- |
 | **7** | New faction arises, shifting balance of power: Who are they? What do they want? Why are they opposed to you and the villain? Could either of you court their favor? |
 | **8** | **Find a mysterious item**: It could be anything: an ancient and indecipherable scroll, a locket with pictures inside, an abandoned ship, an obelisk in the midst of a field, a shoe… Where did it come from? Whose is it? How did it get there? What does it do? Is it dangerous? Is it intrinsically mysterious, or only mysterious because of where it was found? |
 | **9** | **Important item is lost/missing/stolen**: Yours or an ally’s. It could be your \+5 sword or your secret diary, all your iron rations, the emperor’s signet ring, your favorite hat… Is it bad that it’s missing because you can’t succeed without it, or is it just dangerous in the wrong hands? Where did you see it last? Can you even remember? Did someone else want it? Is it incriminating if you left it in the wrong place? |

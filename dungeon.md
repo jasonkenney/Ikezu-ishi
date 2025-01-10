@@ -1,6 +1,6 @@
 ---
 Layout: default
-title: Dungeon Exploring
+title: Dungeon Exploration
 parent: Procedures
 nav_order: 1
 ---

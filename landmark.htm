@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmark Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0078D7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+    <script>
+    function rollDice(sides, rolls = 1) {
+    let results = [];
+    for (let i = 0; i < rolls; i++) {
+        results.push(Math.floor(Math.random() * sides) + 1);
+    }
+    return results.length === 1 ? results[0] : results;
+}
+
+function generateLandmark() {
+    let resultDiv = document.getElementById("result");
+    resultDiv.innerHTML = "";
+
+    // Step 1: Determine Type of Landmark
+    let typeRoll = rollDice(3);
+    if (typeRoll <= 2) {
+        resultDiv.innerHTML += `<p><strong>Landmark Type:</strong> Fabricated (man-made)</p>`;
+        generateFabricatedLandmark(resultDiv);
+    } else {
+        resultDiv.innerHTML += `<p><strong>Landmark Type:</strong> Natural</p>`;
+        generateNaturalLandmark(resultDiv);
+    }
+}
+
+function generateFabricatedLandmark(resultDiv) {
+    let detailsRolls = rollDice(8, 4).concat(rollDice(4, 4));
+    let type = rollDice(8);
+    let madeOf = rollDice(8);
+    let notable = rollDice(8);
+    let originalPurpose = rollDice(8);
+    let age = rollDice(4);
+    let condition = rollDice(4);
+    let localReaction = rollDice(4);
+    let size = rollDice(4);
+
+    // Fabricated Landmark Details
+    const types = [
+        "Shinto Shrine or Buddhist Temple",
+        "Building or Structure",
+        "Carving or Relief",
+        "Marker or Symbol",
+        "Monument or Obelisk",
+        "Statue",
+        "Roll again here and on Table A, combine the results.",
+        "Roll twice and combine"
+    ];
+
+    const materials = [
+        "Earthworks",
+        "Common metal",
+        "Rare metal",
+        "Organic matter",
+        "Plain stone",
+        "Fancy stone",
+        "Unidentifiable (spiritual)",
+        "Roll twice and combine"
+    ];
+
+    const notableReasons = [
+        "Visible from a distance",
+        "Local legend",
+        "Superstition",
+        "Misinterpreted purpose",
+        "Nearby natural resources",
+        "Curiosity",
+        "Historical site",
+        "Roll twice and combine"
+    ];
+
+    const purposes = [
+        "Religious",
+        "Commemorative",
+        "Artistic/Whimsical",
+        "Practical use",
+        "Punishment or decree",
+        "Cultural",
+        "Special purpose (roll on Table 3)",
+        "Roll twice and combine"
+    ];
+
+    const ages = ["Prehistoric", "Ancient", "Old", "Recent"];
+    const conditions = ["Ruined or defaced", "Weathered and overgrown", "Fair", "Pristine"];
+    const reactions = ["Feared", "Loved", "Unaware it exists", "Worshipped"];
+    const sizes = [
+        "Under 3 feet",
+        `3-10 feet (${rollDice(8) + 2})`,
+        `11-20 feet (${rollDice(10) + 10})`,
+        "Enormous"
+    ];
+
+    resultDiv.innerHTML += `
+        <p><strong>Type:</strong> ${types[type - 1]}</p>
+        <p><strong>Made of:</strong> ${materials[madeOf - 1]}</p>
+        <p><strong>Notable because:</strong> ${notableReasons[notable - 1]}</p>
+        <p><strong>Original Purpose:</strong> ${purposes[originalPurpose - 1]}</p>
+        <p><strong>Age:</strong> ${ages[age - 1]}</p>
+        <p><strong>Condition:</strong> ${conditions[condition - 1]}</p>
+        <p><strong>Local Reaction:</strong> ${reactions[localReaction - 1]}</p>
+        <p><strong>Size:</strong> ${sizes[size - 1]}</p>
+    `;
+}
+
+function generateNaturalLandmark(resultDiv) {
+    let detailsRolls = rollDice(8, 3);
+    let type = rollDice(8);
+    let notable = rollDice(8);
+    let ageFame = rollDice(8);
+
+    const types = [
+        "Boulder",
+        "Burrow or Cave",
+        "Canyon, Cliff, or Ridge",
+        "Earth or Rock Formation",
+        "Fungus or Plant Formation",
+        "Geyser, Pond, or Spring",
+        "Pit, Quicksand, or Sinkhole",
+        "Roll twice and combine"
+    ];
+
+    const notableReasons = [
+        "Visible from a distance",
+        "Tied to legend or superstition",
+        "Resembles a person or creature",
+        "Magical properties",
+        "Nearby natural resources",
+        "Associated with a historical event",
+        "Unnatural origin",
+        "Roll twice and combine"
+    ];
+
+    const ageFameOptions = [
+        "Prehistoric/Famous",
+        "Prehistoric/Unknown",
+        "Ancient/Famous",
+        "Ancient/Unknown",
+        "Old/Famous",
+        "Old/Unknown",
+        "Recent/Famous",
+        "Recent/Unknown"
+    ];
+
+    resultDiv.innerHTML += `
+        <p><strong>Type:</strong> ${types[type - 1]}</p>
+        <p><strong>Notable because:</strong> ${notableReasons[notable - 1]}</p>
+        <p><strong>Age/Fame:</strong> ${ageFameOptions[ageFame - 1]}</p>
+    `;
+}
+</script>
+</head>
+<body>
+    <h1>Landmark Generator</h1>
+    <p>Click the button below to generate a random landmark.</p>
+    <button onclick="generateLandmark()">Generate Landmark</button>
+    <div id="result"></div>
+
+</body>
+</html>

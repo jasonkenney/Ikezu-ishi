@@ -34,7 +34,8 @@ Weapons take up **1 inventory slot** unless marked as **Bulky**. Bulky weapons a
 
 - **Sweep X**: Damage rolls of X or higher grant one bonus attack on another target in Melee range. You can’t chain this effect for multiple bonus attacks.
 
-- **Quick X:** When deciding who goes first when up against a weapon of the same damage die, treat your DEX as being X higher.
+- **Quick X:** When determining who acts first during the first round of combat, treat your DEX as being X higher.
+
 
 
 ## Learning How To Use A Weapon

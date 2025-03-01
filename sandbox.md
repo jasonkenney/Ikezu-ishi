@@ -118,14 +118,14 @@ If a river is present, it must connect to an existing river. If it’s the first
 | CURRENT WATER | D12 | NEW WATER |
 | --- | --- | --- |
 | **Lake\*** | 1   | Lake |
-| 2-4 | River |
-| 5-12 | None |
+| | 2-4 | River |
+| | 5-12 | None |
 | **River\*\*** | 1   | Lake |
-| 2-10 | River |
-| 11-12 | None |
+| | 2-10 | River |
+| | 11-12 | None |
 | **None** | 1   | Lake |
-| 2-3 | River |
-| 4-12 | None |
+| | 2-3 | River |
+| | 4-12 | None |
 
 ## Hex Contents
 
@@ -175,7 +175,7 @@ it.
 
 ### Size (D4)
 
-| D4  | SIZE |     |     |
+| D4  | SIZE | 
 | --- | --- | --- | --- |
 | 1   | Small | 3   | Large |
 | 2   | Modest | 4   | Huge |

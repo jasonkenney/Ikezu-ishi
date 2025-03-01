@@ -1,3 +1,9 @@
+---
+layout: default
+title: ikezu-ishi sandbox
+
+---
+
 # Ikezu-ishi Hexcrawl Generator
 
 Introduction 2

@@ -62,17 +62,17 @@ The location of the next hex can be determined one of a few ways:
 | | 9   | Mountains |
 | | 10  | Marsh |
 | **Hills** | 1-4 | Mountains |
-| 5-8 | Hills |
-| 9-11 | Plains |
-| 12  | Swamp |
+| | 5-8 | Hills |
+| | 9-11 | Plains |
+| | 12  | Swamp |
 | **Plains** | 1   | Mountains |
-| 2-3 | Hills |
-| 4-9 | Plains |
-| 10-12 | Swamp |
+| | 2-3 | Hills |
+| | 4-9 | Plains |
+| | 10-12 | Swamp |
 | **Swamp** | 1   | Mountains |
-| 2   | Hills |
-| 3-8 | Plains |
-| 9-12 | Swamp |
+| | 2   | Hills |
+| | 3-8 | Plains |
+| | 9-12 | Swamp |
 
 ## Vegetation
 
@@ -85,21 +85,21 @@ After determining the biome of a hex, you will roll for its **vegetation**. A bi
 | CURRENT VEGETATION | D12 | NEW VEGETATION |
 | --- | --- | --- |
 | **Dense Forest/Jungle** | 1-6 | Dense Forest |
-| 7-10 | Light Forest |
-| 11  | Grasslands |
-| 12  | Barren |
+| | 7-10 | Light Forest |
+| | 11  | Grasslands |
+| | 12  | Barren |
 | **Light Forest** | 1-4 | Dense Forest |
-| 5-8 | Light Forest |
-| 9-11 | Grassland |
-| 12  | Barren |
+| | 5-8 | Light Forest |
+| | 9-11 | Grassland |
+| | 12  | Barren |
 | **Grassland** | 1   | Dense Forest/Jungle |
-| 2-3 | Light Forest |
-| 4-9 | Grassland |
-| 10-12 | Barren |
+| | 2-3 | Light Forest |
+| | 4-9 | Grassland |
+| | 10-12 | Barren |
 | **Barren** | 1   | Dense Forest/Jungle |
-| 2   | Light Forest |
-| 3-6 | Grassland |
-| 7-12 | Barren |
+| | 2   | Light Forest |
+| | 3-6 | Grassland |
+| | 7-12 | Barren |
 
 ## Water
 
@@ -143,11 +143,6 @@ After determining the terrain of the hex you will then roll to see if it contain
 
 **Locations** are areas currently or recently populated or traveled to, including bandit camps, ruins, graves, lairs, hot springs, holy places, archives, and places of mythical legend.
 
-You can find the tables for each option beginning on the following pages:
-
-- Landmark – Page 7
-- Settlement – Page 11
-- Location – Page 20
 
 
 # Landmarks
@@ -181,7 +176,7 @@ it.
 ### Size (D4)
 
 | D4  | SIZE |     |     |
-| --- | --- |     |     | --- | --- |
+| --- | --- | --- | --- |
 | 1   | Small | 3   | Large |
 | 2   | Modest | 4   | Huge |
 

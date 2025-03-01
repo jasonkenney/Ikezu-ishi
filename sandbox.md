@@ -56,7 +56,7 @@ The location of the next hex can be determined one of a few ways:
 | CURRENT BIOME | D12 | NEW BIOME |
 | --- | --- | --- |
 | **Mountains** | 1-6 | Mountains |
-| 7-10 | Hills |
+| | 7-10 | Hills |
 | 11  | Plains |
 | 12  | Swamp |
 | 9   | Mountains |

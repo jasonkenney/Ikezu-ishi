@@ -177,8 +177,10 @@ it.
 
 | D4  | SIZE | 
 | --- | --- | --- | --- |
-| 1   | Small | 3   | Large |
-| 2   | Modest | 4   | Huge |
+| 1   | Small |
+| 2   | Modest |
+| 3   | Large |
+| 4   | Huge |
 
 ### Type (D8)
 

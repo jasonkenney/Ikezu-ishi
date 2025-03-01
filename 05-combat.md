@@ -83,7 +83,7 @@ Also note that only the weapon tag/effects of the highest result are used; it’
 
 - **Sweep X**: Damage rolls of X or higher grant one bonus attack on another target in reach. You can’t chain this effect for multiple bonus attacks.
 
-- **Quick X:** When deciding who goes first when up against a weapon of the same damage die, treat your DEX as being X higher.
+- **Quick X:** When determining who acts first during the first round of combat, treat your DEX as being X higher.
 
 **Impaired**: If fighting from a position of weakness (such as through cover or with bound hands), the attack is **Impaired**, and the attacker must roll 1d4 damage regardless of the attack’s damage die. Unarmed attacks always do 1d4 damage.
 

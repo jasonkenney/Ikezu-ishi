@@ -57,10 +57,10 @@ The location of the next hex can be determined one of a few ways:
 | --- | --- | --- |
 | **Mountains** | 1-6 | Mountains |
 | | 7-10 | Hills |
-| 11  | Plains |
-| 12  | Swamp |
-| 9   | Mountains |
-| 10  | Marsh |
+| | 11  | Plains |
+| | 12  | Swamp |
+| | 9   | Mountains |
+| | 10  | Marsh |
 | **Hills** | 1-4 | Mountains |
 | 5-8 | Hills |
 | 9-11 | Plains |

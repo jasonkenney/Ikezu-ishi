@@ -15,7 +15,7 @@ nav_order: 9
 
 ## Going Alone
 
-Ikezu-ishi can also be played solo, with one person acting as both Guide and Player.
+Ikezu-Ishi can also be played solo, with one person acting as both Guide and Player.
 
 The role of the Guide is replicated by the use of tables to assist during moments of choice or help provide descriptions and ideas for open-ended questions.
 

@@ -5,7 +5,7 @@ nav_order: 11
 ---
 
 
-# GISHIKI
+# Gishiki
 
 
 Gishiki is based on "Glog Magic Hack for Cairn"

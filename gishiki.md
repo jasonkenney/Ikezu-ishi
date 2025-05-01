@@ -526,3 +526,4 @@ For \[DICE\] x10 minutes, Target is friendly to the PC and must answer
 honestly any questions the PC asks it.
 
 **Fatigue**: PC gains 2 fatigue in addition to FD roll.
+

@@ -7,8 +7,8 @@
 }
 
 @font-face {
-  font-family: 'Alegreya';
-  src: local('Alegreya Regular'), url('/fonts/static/Alegreya-Regular.woff2') format('woff2');
+  font-family: 'Shippori';
+  src: local('ShipporiMincho-Regular'), url('/fonts/ShipporiMincho-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 
 body {
-  font-family: 'Alegreya', Georgia, serif;
+  font-family: 'Shippori', Georgia, serif;
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 1.25rem; /* 20px */

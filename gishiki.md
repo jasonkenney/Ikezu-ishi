@@ -8,8 +8,7 @@ nav_order: 11
 # Gishiki
 
 
-Gishiki is based on "Glog Magic Hack for Cairn"
-(https://cairnrpg.com/hacks/glog-magic)
+Gishiki is based on "Glog Magic Hack for Cairn" (https://cairnrpg.com/hacks/glog-magic)
 
 
 ## Using Magic in Ikezu-ishi

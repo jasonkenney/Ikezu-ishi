@@ -25,6 +25,6 @@ Ikezu-Ishi is licensed under CC-BY-SA 4.0. You are free to copy, redistribute, r
 - Physical copies are available through <a href="https://a.co/d/gtLPBEf" target="_blank">Amazon</a>
 
 ## Also available: 
-- <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank">Defenders of&nbsp;Koganemura</a>&nbsp;-&nbsp;A Seven Samurai Inspired Adventure for Ikezu-ishi.
+- <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank">Defenders of&nbsp;Koganemura</a>&nbsp;-&nbsp;A Seven Samurai Inspired Adventure for Ikezu-Ishi.
 
 - <a href="https://serialprizes.itch.io/locations-of-adventure" target="_blank">Locations of Adventure</a>&nbsp;<em>-</em>&nbsp;20 locations and settings for Ikezu-Ishi and any other system.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Gishiki - Magic in Ikezu-ishi
+nav_order: 11
+---
 
 
 # GISHIKI
@@ -7,7 +12,7 @@ Gishiki is based on "Glog Magic Hack for Cairn"
 (https://cairnrpg.com/hacks/glog-magic)
 
 
-# Using Magic in Ikezu-ishi
+## Using Magic in Ikezu-ishi
 
 The Ikezu-Ishi magic system is inspired by and derived from some aspects
 of magic and mysticism in Japanese history. Effort was made to create
@@ -35,7 +40,7 @@ the PC or target rests for a watch and does not carry over.
 Dice, they'd be allowed to ask 4 questions. If they only ask two before
 resting for the night, the remaining two are forfeit.*
 
-#  Using a Rite {#using-a-rite}
+##  Using a Rite {#using-a-rite}
 
 PCs must have spent time to craft the Rite Card in their possession and
 must have a calm moment to use it.
@@ -66,7 +71,7 @@ must have a calm moment to use it.
 - Reduce the Rite Card's remaining charges by 1. When a Rite Card
   reaches 0 uses, it crumbles, fades, or burns away.
 
-## Feedback Effect Table
+### Feedback Effect Table
 
 | SUM       | EFFECT                                                                                                      |
 |-----------|-------------------------------------------------------------------------------------------------------------|
@@ -90,7 +95,7 @@ must have a calm moment to use it.
 | **23**    | The rite's effect is permanent.                                                                             |
 | **24**    | The rite drastically backfires, killing the PC instantly.                                                   |
 
-# Learning a Rite
+## Learning a Rite
 
 Learning a Rite requires finding a trainer for a specific Rite at a
 specific location -- finding a school that specifically teaches
@@ -130,7 +135,7 @@ finding a thief to teach how to pick a lock.
 
 - PC creates a Rite Card for the learned ritual.
 
-# ![](media/image2.png){width="1.7in" height="2.3784722222222223in"}Rite Card
+## Rite Card
 
 A Rite Card is a slip of paper that a PC has created through deep study
 and discipline.
@@ -154,7 +159,7 @@ Each Rite Card should contain the following information:
 Players can physically check off uses. Once all uses are filled, the
 paper is torn or burned in play.
 
-# Rites
+## Rites
 
 - \[DICE\] are equal to Focus Dice invested in the spell.
 
@@ -165,7 +170,7 @@ paper is torn or burned in play.
 
 ### 
 
-### Ancestral Marking {#ancestral-marking .Rite-Title}
+### Ancestral Marking
 
 **Uses**: 2
 
@@ -184,7 +189,7 @@ benevolent ancestral spirit:
 
 Removing the card before the effect's time ends will end the effect.
 
-### Blessing of the Dormant Seed {#blessing-of-the-dormant-seed .Rite-Title}
+### Blessing of the Dormant Seed
 
 **Uses**: 2
 
@@ -195,7 +200,7 @@ to dig.
 
 Target's next \[DICE\] critical failures become normal failures.
 
-###  Borrowed Voice {#borrowed-voice .Rite-Title}
+###  Borrowed Voice
 
 **Note**: Requires *previous* knowledge of **Call the Restless**
 
@@ -213,7 +218,7 @@ Can only be done once per day.
 
 **Fatigue**: PC gains 1 Fatigue in addition to FD roll.
 
-### Breath of the Ten Thousand Pines {#breath-of-the-ten-thousand-pines .Rite-Title}
+### Breath of the Ten Thousand Pines
 
 **Uses**: 2
 
@@ -224,7 +229,7 @@ Can only be done once per day.
 Restore \[DICE\] HP or 1 point to an Ability score (not to exceed
 original). This effect does not end with rest.
 
-###  Call the Restless {#call-the-restless .Rite-Title}
+###  Call the Restless
 
 **Uses**: 2
 
@@ -237,7 +242,7 @@ PC may commune with the spirit of a dead person tied to the area or to
 someone present. You may ask \[DICE\] questions. The Guide must answer
 truthfully but can answer vaguely.
 
-### Celestial Seal {#celestial-seal .Rite-Title}
+### Celestial Seal
 
 **Note**: Requires previous knowledge of **Heaven's Reflection**.
 
@@ -253,7 +258,7 @@ x 10 minutes.
 
 **Fatigue**: PC gains 1 Fatigue in addition to FD roll.
 
-### Descent of the Hidden Flame {#descent-of-the-hidden-flame .Rite-Title}
+### Descent of the Hidden Flame
 
 **Uses**: 1
 
@@ -279,7 +284,7 @@ Ask \[DICE\] yes/no question(s) about the next day or night's events.
 The Guide answers as truthful as possible, but cryptically. (Don't ask
 "will PC die tomorrow?")
 
-###  Directional Reversal {#directional-reversal .Rite-Title}
+###  Directional Reversal
 
 **Uses**: 3
 
@@ -293,7 +298,7 @@ x 10 minutes. If the card is moved the rite ends.
 
 Can only be used once per threat per day.
 
-### Echo Beneath the Waves {#echo-beneath-the-waves .Rite-Title}
+### Echo Beneath the Waves
 
 **Note**: Requires previous knowledge of **Shroud of the Forgotten**
 
@@ -308,7 +313,7 @@ PC learns a fragment of what happened in this location up to \[DICE\]
 years ago. Gain an emotional or sensory imprint (a scream, blood in the
 water, fire, laughter, chanting, etc).
 
-### Elemental Harmonization {#elemental-harmonization .Rite-Title}
+### Elemental Harmonization
 
 **Note**: Requires previous knowledge of **Directional Reversal**
 
@@ -329,7 +334,7 @@ Choose one of the following for yourself or another target:
 
 Can only be used once per target per day.
 
-###  Endure the World's Edge {#endure-the-worlds-edge .Rite-Title}
+###  Endure the World's Edge
 
 **Uses**: 3
 
@@ -342,7 +347,7 @@ arms outstretched, rite card held firmly in your mouth.
 For \[SUM\] x 10 minutes, you gain +1 to Saves vs harm from the source
 you named.
 
-### Gift of the Quiet Grove {#gift-of-the-quiet-grove .Rite-Title}
+### Gift of the Quiet Grove
 
 **Uses**: 2
 
@@ -360,7 +365,7 @@ For \[SUM\] x 10 minutes, Target
 
 Effect ends if card falls off before time runs out.
 
-###  Heaven's Reflection {#heavens-reflection .Rite-Title}
+###  Heaven's Reflection
 
 **Uses**: 2
 
@@ -373,7 +378,7 @@ should answer truthfully, but cryptically.
 
 Can only be used once per day.
 
-### Presence of the Sky-Rooted One {#presence-of-the-sky-rooted-one .Rite-Title}
+### Presence of the Sky-Rooted One
 
 **Uses**: 1
 
@@ -386,7 +391,7 @@ Target gain boon of +\[DICE\] to any one ability for \[SUM\] x 10
 minutes. If the ash is removed from either the brow or chest the rite
 ends.
 
-###  Sacred Boundary {#sacred-boundary .Rite-Title}
+###  Sacred Boundary 
 
 **Note**: Requires previous knowledge of **Presence of the Sky-Rooted
 One**.
@@ -405,7 +410,7 @@ boundary gain +1 FD effect.
 
 If the rite card is moved the effect ends.
 
-### The Seeking Object {#the-seeking-object .Rite-Title}
+### The Seeking Object
 
 **Uses**: 3
 
@@ -417,7 +422,7 @@ into the wind.
 When thrown, the rite card will drift and land in the direction of the
 object PC is searching for. It does not give any indication of distance.
 
-### Sheath of the Ring {#sheath-of-the-ring .Rite-Title}
+### Sheath of the Ring
 
 **Uses**: 2
 
@@ -428,7 +433,7 @@ circle on the surface before you.
 
 Shielded from minor spiritual effects for \[SUM\] x 10 minutes.
 
-### Shroud of the Forgotten {#shroud-of-the-forgotten .Rite-Title}
+### Shroud of the Forgotten
 
 **Uses**: 2
 
@@ -440,7 +445,7 @@ protect.
 For \[SUM\] x 10 minutes, you and allies within the circle are unseen by
 spirits and yokai.
 
-### Summon the Paper Dragon {#summon-the-paper-dragon .Rite-Title}
+### Summon the Paper Dragon
 
 **Uses**: 1
 
@@ -451,7 +456,7 @@ the paper dragon, adds 30 minutes to effect.
 
 Forces yokai to flee from PC for \[SUM\] x 10 minutes.
 
-### Thread of Intent {#thread-of-intent .Rite-Title}
+### Thread of Intent
 
 **Uses**: 3
 
@@ -463,7 +468,7 @@ For \[SUM\] x 10 minutes, Target's saves are at an Advantage (roll 2 d20
 and keep the better result). If the thread is broken or card removed the
 effect ends.
 
-### Tongue of the Tool {#tongue-of-the-tool .Rite-Title}
+### Tongue of the Tool
 
 **Uses**: 3
 
@@ -480,7 +485,7 @@ The PC may:
 
 - Discover a memory the item holds
 
-### Trial of the Ember Path {#trial-of-the-ember-path .Rite-Title}
+### Trial of the Ember Path
 
 **Uses**: 1
 
@@ -493,7 +498,7 @@ across hot coals or embers. Do not break stride. If interrupted, take
 Become immune to mundane fire for \[SUM\] x 10 minutes and suffer no
 damage from the next fire-based attack (even magical).
 
-### Whisper of the Cliff-Wind {#whisper-of-the-cliff-wind .Rite-Title}
+### Whisper of the Cliff-Wind
 
 **Uses**: 2
 
@@ -509,7 +514,7 @@ earthquake - and its location within \[SUM\] miles. The Guide must share
 one hazard nearby. If no hazards are within \[SUM\] miles, the Guide
 must inform the PC.
 
-###  Word Spirit {#word-spirit .Rite-Title}
+###  Word Spirit
 
 **Uses**: 1
 

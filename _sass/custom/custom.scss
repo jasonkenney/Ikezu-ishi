@@ -7,16 +7,16 @@
 }
 
 @font-face {
-  font-family: 'Mincho';
-  src: local('Mincho'), url('/fonts/ShipporiMincho-Regular.ttf') format('truetype');
+  font-family: 'Shippori';
+  src: local('Shippori'), url('/fonts/ShipporiMincho-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Mincho';
-  src: local('Mincho Bold'), url('/fonts/ShipporiMincho-Bold.ttf') format('truetype');
+  font-family: 'Shippori';
+  src: local('Shippori Bold'), url('/fonts/ShipporiMincho-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 
 body {
-  font-family: 'Mincho', Georgia, serif;
+  font-family: 'Shippori', Georgia, serif;
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 1.25rem; /* 20px */

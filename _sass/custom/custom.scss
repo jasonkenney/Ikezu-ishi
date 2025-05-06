@@ -6,39 +6,27 @@
   --visited-color: #760000;
 }
 
-@font-face {
-  font-family: 'Shippori';
-  src: local('Shippori'), url('fonts/ShipporiMincho-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Shippori';
-  src: local('Shippori Bold'), url('/fonts/ShipporiMincho-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: local('Alegreya Italic'), url('/fonts/static/Alegreya-Italic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&family=Alegreya:ital@1&display=swap');
 
 body {
-  font-family: 'Shippori', Georgia, serif;
+  font-family: 'Shippori Mincho', Georgia, serif;
   background-color: var(--background-color);
   color: var(--text-color);
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+.side-bar .site-nav, 
+.side-bar .nav-list, 
+.side-bar .nav-list-item, 
+.side-bar .nav-list-link {
+  font-size: 1.25rem;
+  font-family: 'Shippori Mincho', Georgia, serif;
+}
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
@@ -91,13 +79,5 @@ button:focus {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.side-bar .site-nav, 
-.side-bar .nav-list, 
-.side-bar .nav-list-item, 
-.side-bar .nav-list-link {
-  font-size: 1.25rem; /* 20px */
-  font-family: 'Shippori', Georgia, serif;
 }
 

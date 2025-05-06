@@ -65,11 +65,11 @@ th, td {
 }
 
 tr:nth-child(even) td {
-  background-color: #2e2d33;
+  background-color: #ffffff;
 }
 
 tr:nth-child(odd) td {
-  background-color: var(--background-color);
+  background-color: #cccccc;
 }
 
 thead {
@@ -98,6 +98,6 @@ img {
 .side-bar .nav-list-item, 
 .side-bar .nav-list-link {
   font-size: 1.25rem; /* 20px */
-  font-family: 'Alegreya', Georgia, serif;
+  font-family: 'Shippori', Georgia, serif;
 }
-.table_wrapper {background: white;}
+

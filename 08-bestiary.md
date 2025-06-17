@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Bestiary
+nav_order: 9
+---
 
 # Mortals and Monsters
 {: .no_toc }

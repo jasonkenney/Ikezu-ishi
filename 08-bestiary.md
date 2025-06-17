@@ -4,6 +4,7 @@ title: Bestiary
 nav_order: 9
 ---
 
+
 # Mortals and Monsters
 {: .no_toc }
 
@@ -16,61 +17,61 @@ nav_order: 9
 
 ## Human NPCs
 
-The Guide may generate Human NPCs using the **Character Creation** guidelines, choosing one of the pregenerated characters in **Appendix C** (page ), creating their own with other compatible resources, or by selecting one of the options below.
+The Guide may generate Human NPCs using the **Character Creation** guidelines, creating their own with other compatible resources, or by selecting one of the options below.
 
 ### Generic Human NPC
 
 3 HP, 0 Armor, 10 STR, 10 DEV, 10 WIL, d4 damage, d4 ryo loot if defeated
 
-**Ashigaru (Soldier)**
+### Ashigaru (Soldier)
 
 4 HP, 1 Armor, 11 STR, 12 DEX, 9 WIL, Wakizashi (d6), d6 ryo
 
 *The Ashigaru are foot soldiers of peasant background who form the backbone of the army. Lightly armored, they wield a variety of weapons depending on their role.*
 
-**Bandit**
+### Bandit
 
 4 HP, 1 Armor, 11 STR, 14 DEX, 12 WIL, Dagger (d6), d10 ryo
 
 *From opportunistic highwaymen to organized gangs, they prey on travelers and settlements. While often romanticized, their actions pose a real threat to stability.*
 
-**Farmer**
+### Farmer
 
 4 HP, 10 STR, 10 DEX, 8 WIL, Sickle (d4), d4 ryo
 
 *Commoners working the land to grow crops and raise livestock.*
 
-**Fisherman**
+### Fisherman
 
 4 HP, 10 STR, 12 DEX, 10 WIL, Fishing spear (d4), d6 ryo
 
 *Villagers who make their living by fishing in rivers and the sea.*
 
-**Kaizoku (Pirate)**
+### Kaizoku (Pirate)
 
 6 HP, 12 STR, 14 DEX, 9 WIL, Short sword (d6), 2d6 ryo
 
 *Feared pirates who terrorize coastal towns and settlements for plunder and fun. Known for their ruthlessness and colorful appearance, they raided towns and villages, striking fear with their modified swords and oni masks.*
 
-**Merchant**
+### Merchant
 
 5 HP, 8 STR, 12 DEX, 12 WIL, Tanto (d4), 2d6 ryo
 
 *Traders who travel between towns, selling goods and wares.*
 
-**Ronin**
+### Ronin
 
 8 HP, 2 Armor, 14 STR, 14 DEX, 8 WIL, Katana (d8), d6 ryo
 
 *Ronin are former samurai who now sell their services and their sword to make ends meet.*
 
-**Ronin Leader**
+### Ronin Leader
 
 12 HP, 2 Armor, 16 STR, 14 DEX, 10 WIL, Nodachi (d10), 2d6 ryo
 
 * Grants \+1 to morale rolls for nearby allies.
 
-**Samurai**
+### Samurai
 
 8 HP, 3 Armor, 16 STR, 12 DEX, 11 WIL, Katana (d8), d10 ryo
 
@@ -78,7 +79,7 @@ The Guide may generate Human NPCs using the **Character Creation** guidelines, c
 
 * \+2 HP against one melee attack during combat.
 
-**Shinobi (Ninja)**
+### Shinobi (Ninja)
 
 6 HP, 1 Armor, 10 STR, 16 DEX, 10 WIL, Ninjato (Short Sword) (d6), d6 ryo
 
@@ -89,19 +90,19 @@ The Guide may generate Human NPCs using the **Character Creation** guidelines, c
 * 2 Shuriken (d4, ranged)  
 * Can retreat without rolling a DEX save.
 
-**Sohei**
+### Sohei
 
 5 HP, 10 STR, 18 DEX, 12 WIL, Fists (d6+d6), d4 ryo
 
 *Warrior monks blurring the line between faith and fury, Sohei are formidable fighters trained in martial arts and wielding religious zeal. Dedicated to protecting temples and upholding their beliefs, they serve as fierce defenders against bandits and rival sects, their chants echoing amidst the clash of steel, their faith fueling their unyielding combat prowess.*
 
-**Tea Master**
+### Tea Master
 
 5 HP, 8 STR, 12 DEX, 16 WIL, Tea Whisk (d4), d6 ryo
 
 *Experts in the art of tea ceremony, bringing tranquility and mindfulness through their craft.*
 
-**Villager**
+### Villager
 
 3 HP, 8 STR, 10 DEX, 8 WIL, Farming Tools (d4), d4 ryo
 

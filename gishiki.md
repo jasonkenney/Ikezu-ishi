@@ -1,7 +1,7 @@
 ---
 layout: default
 title: (WIP) Gishiki - Magic in Ikezu-ishi
-nav_order: 11
+nav_order: 9
 ---
 
 

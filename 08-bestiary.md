@@ -1,14 +1,14 @@
 
 
-# Mortals and Monsters {#mortals-and-monsters}
+# Mortals and Monsters
+{: .no_toc }
 
 *Master the divine techniques of the Art of Peace and no enemy will dare to challenge you.*
 
 *\- Morihei Ueshiba*
 
-Kawanabe Kyosai, Jigoku dayu (Hell Courtesan), 1874, woodblock print, ink and color on paper.
-
-Mortals and Monsters
+1. TOC
+{:toc}
 
 ## Human NPCs
 
@@ -24,71 +24,49 @@ The Guide may generate Human NPCs using the **Character Creation** guidelines, c
 
 *The Ashigaru are foot soldiers of peasant background who form the backbone of the army. Lightly armored, they wield a variety of weapons depending on their role.*
 
-![P5058\#yIS1][image51]
-
-Bandit
+**Bandit**
 
 4 HP, 1 Armor, 11 STR, 14 DEX, 12 WIL, Dagger (d6), d10 ryo
 
 *From opportunistic highwaymen to organized gangs, they prey on travelers and settlements. While often romanticized, their actions pose a real threat to stability.*
 
-![P5063\#yIS1][image52]
-
-Farmer
+**Farmer**
 
 4 HP, 10 STR, 10 DEX, 8 WIL, Sickle (d4), d4 ryo
 
 *Commoners working the land to grow crops and raise livestock.*
 
-![P5068\#yIS1][image53]
-
-Fisherman
+**Fisherman**
 
 4 HP, 10 STR, 12 DEX, 10 WIL, Fishing spear (d4), d6 ryo
 
 *Villagers who make their living by fishing in rivers and the sea.*
 
-![P5073\#yIS1][image54]
-
-Kaizoku (Pirate)
+**Kaizoku (Pirate)**
 
 6 HP, 12 STR, 14 DEX, 9 WIL, Short sword (d6), 2d6 ryo
 
 *Feared pirates who terrorize coastal towns and settlements for plunder and fun. Known for their ruthlessness and colorful appearance, they raided towns and villages, striking fear with their modified swords and oni masks.*
 
-![P5079\#yIS1][image55]
-
-Merchant
-
-Utagawa Hiroshige, *Yoshiwara*, 1855, woodblock print, ink and color on paper.
-
-Tsukioka Yoshitoshi, *Ronin fending off arrows*, 1869, woodblock print, ink and color on paper.
-
-Toyohara Chikanobu, *Samurai Horse Race in the River*, 1898, woodblock print, ink and color on paper.
-
-Katsushika Hokusai, *Ninja,* Ca. 1814, ink on paper.
+**Merchant**
 
 5 HP, 8 STR, 12 DEX, 12 WIL, Tanto (d4), 2d6 ryo
 
 *Traders who travel between towns, selling goods and wares.*
 
-![P5088\#yIS1][image56]
-
-Ronin
+**Ronin**
 
 8 HP, 2 Armor, 14 STR, 14 DEX, 8 WIL, Katana (d8), d6 ryo
 
 *Ronin are former samurai who now sell their services and their sword to make ends meet.*
 
-Ronin Leader
+**Ronin Leader**
 
 12 HP, 2 Armor, 16 STR, 14 DEX, 10 WIL, Nodachi (d10), 2d6 ryo
 
 * Grants \+1 to morale rolls for nearby allies.
 
-![P5096\#yIS1][image57]
-
-Samurai
+**Samurai**
 
 8 HP, 3 Armor, 16 STR, 12 DEX, 11 WIL, Katana (d8), d10 ryo
 
@@ -96,9 +74,7 @@ Samurai
 
 * \+2 HP against one melee attack during combat.
 
-![P5102\#yIS1][image58]
-
-Shinobi (Ninja)
+**Shinobi (Ninja)**
 
 6 HP, 1 Armor, 10 STR, 16 DEX, 10 WIL, Ninjato (Short Sword) (d6), d6 ryo
 
@@ -109,46 +85,27 @@ Shinobi (Ninja)
 * 2 Shuriken (d4, ranged)  
 * Can retreat without rolling a DEX save.
 
-![P5114\#yIS1][image59]
-
-Ytagawa Yoshifuji, *Onzoshi Ushiwakamaru and Musashibo Benkei on Gojo Bridge*, 1843, woodblock print, ink and color on paper.
-
-Copied by Kano Osanobu and Kano Masanobu, *Japanese Tea Vendors,* Ca. 1846\.
-
-Isoda Koryusai, *Merrymakers at Shinagawa*, Ca. 1770s, woodblock print, ink and color on paper.
-
-Sohei
+**Sohei**
 
 5 HP, 10 STR, 18 DEX, 12 WIL, Fists (d6+d6), d4 ryo
 
 *Warrior monks blurring the line between faith and fury, Sohei are formidable fighters trained in martial arts and wielding religious zeal. Dedicated to protecting temples and upholding their beliefs, they serve as fierce defenders against bandits and rival sects, their chants echoing amidst the clash of steel, their faith fueling their unyielding combat prowess.*
 
-![P5122\#yIS1][image60]
-
-Tea Master
+**Tea Master**
 
 5 HP, 8 STR, 12 DEX, 16 WIL, Tea Whisk (d4), d6 ryo
 
 *Experts in the art of tea ceremony, bringing tranquility and mindfulness through their craft.*
 
-![P5127\#yIS1][image61]
-
-Villager
+**Villager**
 
 3 HP, 8 STR, 10 DEX, 8 WIL, Farming Tools (d4), d4 ryo
 
 *Common inhabitants of villages engaged in farming and other daily activities.*
 
-Mortals and Monsters
-
 ## Animals
 
 These are just some of the many animals you may encounter during your adventures. Please reference Bestiaries for Cairn, Into the Odd, and other compatible sources to add more flavor to your game.
-
-![P5149\#yIS1][image62]  
-Utagawa Yoshitsuya, *Scene of Yakeyama Pass in the Taiheiki*, 1861, woodblock print, ink and color on paper.
-
-![P5155\#yIS1][image63]
 
 Bat, Vampire
 

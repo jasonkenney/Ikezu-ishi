@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solo Play
-nav_order: 9
+nav_order: 10
 ---
 
 

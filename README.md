@@ -9,7 +9,7 @@ permalink: /
 
 **Ikezu-Ishi** (Malicious Rock) is a feudal Japan inspired hack of **Cairn** by Yochai Gal, **Into the Odd** by Chris McDowall, and **Block, Dodge, Parry** by Lars Huijbregts.
 
-### The Ikezu-ishi collection is available on on Itch.io
+### The Ikezu-Ishi collection is available on on Itch.io
 <p class="text-center">
   <a href="https://serialprizes.itch.io/ikezu-ishi" target="_blank"><img src="https://img.itch.zone/aW1nLzE5MjgxMDE0LnBuZw==/original/FZJ0y4.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a>&nbsp;&nbsp;
   <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank"><img src="https://img.itch.zone/aW1nLzE5MjgxMDI4LnBuZw==/original/kH%2BKuW.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a>&nbsp;&nbsp;

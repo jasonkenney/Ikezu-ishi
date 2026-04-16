@@ -224,6 +224,39 @@ The Guide may use the following table to create the beginning of a scenario, pro
 | **9**  | Hidden    | 19  | Frosted    | 9   | Mystery       | 19  | Statue  |
 | **10** | Ethereal  | 20  | Crimson    | 10  | Feud          | 20  | Pearl   |
 
+
+<style>
+.randgen{font-family:system-ui,sans-serif;padding:1rem 0}
+.randgen button{font-size:15px;padding:9px 22px;cursor:pointer;border:1px solid #aaa;border-radius:8px;background:#fff}
+.randgen button:hover{background:#f5f5f5}
+.randgen .out{background:#f8f7f4;border:1px solid #ddd;border-radius:10px;padding:1rem 1.2rem;margin:1rem 0;min-height:52px}
+.randgen .small{font-size:13px;color:#666}
+.randgen .big{font-size:15px;line-height:1.7}
+</style>
+
+
+
+## Adjective / Item Generator
+
+(Existing table retained above)
+
+<div id="ai" class="randgen">
+<button onclick="aiRoll()">☴ Roll Adjective / Item</button>
+<div id="ai-out" class="out"><span class="small">Press the button.</span></div>
+</div>
+<script>
+(function(){
+var a=[[1,'Ancient'],[2,'Sacred'],[3,'Mystical'],[4,'Enchanted'],[5,'Legendary'],[6,'Cursed'],[7,'Ornate'],[8,'Blessed'],[9,'Hidden'],[10,'Ethereal'],[11,'Forbidden'],[12,'Celestial'],[13,'Shadowy'],[14,'Radiant'],[15,'Phantom'],[16,'Worn'],[17,'Shimmering'],[18,'Obsidian'],[19,'Frosted'],[20,'Crimson']];
+var i=[[1,'Plague'],[2,'Rebellion'],[3,'Disappearance'],[4,'War'],[5,'Evacuation'],[6,'Murder'],[7,'Theft'],[8,'Kidnap'],[9,'Mystery'],[10,'Feud'],[11,'Toolkit'],[12,'Lantern'],[13,'Edict'],[14,'Scale'],[15,'Flute'],[16,'Mask'],[17,'Branch'],[18,'Banner'],[19,'Statue'],[20,'Pearl']];
+function d(n){return Math.floor(Math.random()*n)+1;}
+function f(t,n){for(var x=0;x<t.length;x++)if(t[x][0]===n)return t[x][1];}
+window.aiRoll=function(){
+var ar=d(20),ir=d(20);
+document.getElementById('ai-out').innerHTML='<div class="big">('+ar+'/'+ir+') <b>'+f(a,ar)+' '+f(i,ir)+'</b></div>';
+};
+})();
+</script>
+
 ### Scenario Example
 
 The players meet in a village (9) **Armory** with a (9) **Stranger** who speaks of (6) **Murder**, possibly caused by a (3) **Rival Clan**. Players must go to the (8/14) **Haunted Mountain** and (10) **Find the** (11/2) **Forbidden Scroll**.

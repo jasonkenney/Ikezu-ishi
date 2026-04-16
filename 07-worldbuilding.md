@@ -52,6 +52,90 @@ The Guide may use the following table to create the beginning of a scenario, pro
 | **9** | Shimmering | 19 | Legendary | 9 | Forest | 19 | Hot Springs | 9 | Perform a ritual |
 | **10** | Ethereal | 20 | Blessed | 10 | Lake | 20 | Pagoda | 10 | Find item (roll Adjective/Item Table) |
 
+<!-- Feudal Japan RPG Hook Generator -->
+<style>
+#hook-gen { font-family: system-ui, sans-serif; padding: 1.25rem 0; }
+#hook-gen button { font-size: 15px; padding: 9px 22px; cursor: pointer; border: 1px solid #aaa; border-radius: 8px; background: #fff; }
+#hook-gen button:hover { background: #f5f5f5; }
+#hook-gen .result-block { background: #f8f7f4; border: 1px solid #ddd; border-radius: 10px; padding: 1.1rem 1.4rem; margin: 1.1rem 0; min-height: 58px; }
+#hook-gen .hook-text { font-size: 15px; line-height: 1.75; margin: 0; color: #1a1a1a; }
+#hook-gen .hook-text b.loc { color: #0F6E56; }
+#hook-gen .hook-text b.contact { color: #533ab7; }
+#hook-gen .hook-text b.event { color: #993c1d; }
+#hook-gen .hook-text b.cause { color: #854f0b; }
+#hook-gen .roll-tag { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 6px; margin-left: 4px; vertical-align: middle; font-weight: normal; }
+#hook-gen .rt-loc { background: #E1F5EE; color: #085041; }
+#hook-gen .rt-contact { background: #EEEDFE; color: #3C3489; }
+#hook-gen .rt-event { background: #FAECE7; color: #712B13; }
+#hook-gen .rt-cause { background: #FAEEDA; color: #633806; }
+#hook-gen .table-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 1rem; }
+#hook-gen .col-card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; font-size: 12px; }
+#hook-gen .col-header { padding: 5px 9px; font-size: 11px; font-weight: 600; text-align: center; }
+#hook-gen .h-loc { background: #E1F5EE; color: #085041; }
+#hook-gen .h-contact { background: #EEEDFE; color: #3C3489; }
+#hook-gen .h-event { background: #FAECE7; color: #712B13; }
+#hook-gen .h-cause { background: #FAEEDA; color: #633806; }
+#hook-gen .col-body { padding: 6px 9px; }
+#hook-gen .row { display: flex; gap: 6px; padding: 2px 0; color: #555; }
+#hook-gen .row .n { min-width: 20px; font-size: 10px; color: #aaa; }
+#hook-gen .row .v { color: #222; }
+#hook-gen .row.hi .n, #hook-gen .row.hi .v { font-weight: 700; color: #1a1a1a; }
+@media (max-width: 480px) { #hook-gen .table-grid { grid-template-columns: repeat(2, 1fr); } }
+</style>
+
+<div id="hook-gen">
+  <button onclick="hgGenerate()">&#x2684; Roll the hook</button>
+  <div class="result-block" id="hg-output">
+    <p style="font-size:13px;color:#999;margin:0;">Press the button to generate a scenario hook.</p>
+  </div>
+  <div class="table-grid" id="hg-tables"></div>
+</div>
+
+<script>
+(function(){
+  var loc  = [[1,"Market"],[2,"Tea House"],[3,"Tavern"],[4,"Courtyard"],[5,"Garden"],[6,"Prison"],[7,"Shrine"],[8,"Bathhouse"],[9,"Armory"],[10,"Port"]];
+  var con  = [[1,"Village Elder"],[2,"Monk"],[3,"Merchant"],[4,"Bandit"],[5,"Herbalist"],[6,"Ronin"],[7,"Fisherman"],[8,"Farmer"],[9,"Stranger"],[10,"Daimyo's Emissary"]];
+  var evt  = [[1,"Plague"],[2,"Rebellion"],[3,"Disappearance"],[4,"War"],[5,"Evacuation"],[6,"Murder"],[7,"Theft"],[8,"Kidnap"],[9,"Mystery"],[10,"Feud"]];
+  var causeRows = [[[1,2],"Monsters"],[[3],"Rival clan"],[[4],"Unnatural"],[[5],"Negligence"],[[6,7],"Bandits"],[[8],"The People"],[[9],"Corrupt ruler"],[[10],"Outsiders"]];
+  var causeFlat = [];
+  causeRows.forEach(function(r){ r[0].forEach(function(n){ causeFlat[n]=r[1]; }); });
+
+  function d(n){ return Math.floor(Math.random()*n)+1; }
+  function find(t,n){ for(var i=0;i<t.length;i++) if(t[i][0]===n) return t[i][1]; }
+
+  window.hgGenerate = function(){
+    var lr=d(10), cr=d(10), er=d(10), ur=d(10);
+    document.getElementById("hg-output").innerHTML =
+      '<p class="hook-text">The players meet in a <b class="loc">'+find(loc,lr)+'</b><span class="roll-tag rt-loc">'+lr+'</span> with <b class="contact">'+find(con,cr)+'</b><span class="roll-tag rt-contact">'+cr+'</span> who speaks of <b class="event">'+find(evt,er)+'</b><span class="roll-tag rt-event">'+er+'</span> caused by <b class="cause">'+causeFlat[ur]+'</b><span class="roll-tag rt-cause">'+ur+'</span>.</p>';
+
+    var cols = [
+      {cls:"loc",  hcls:"h-loc",  label:"Location (d10)",  data:loc,  roll:lr},
+      {cls:"con",  hcls:"h-contact",label:"Contact (d10)", data:con,  roll:cr},
+      {cls:"evt",  hcls:"h-event", label:"Event (d10)",    data:evt,  roll:er},
+      {cls:"cause",hcls:"h-cause", label:"Cause (d10)",    data:null, roll:ur}
+    ];
+    var html="";
+    cols.forEach(function(col){
+      html+='<div class="col-card"><div class="col-header '+col.hcls+'">'+col.label+'</div><div class="col-body">';
+      if(col.data){
+        col.data.forEach(function(r){
+          html+='<div class="row'+(r[0]===col.roll?' hi':'')+'"><span class="n">'+r[0]+'</span><span class="v">'+r[1]+'</span></div>';
+        });
+      } else {
+        causeRows.forEach(function(r){
+          var hi=r[0].indexOf(col.roll)>-1;
+          var lbl=r[0].length>1?r[0][0]+'-'+r[0][r[0].length-1]:r[0][0];
+          html+='<div class="row'+(hi?' hi':'')+'"><span class="n">'+lbl+'</span><span class="v">'+r[1]+'</span></div>';
+        });
+      }
+      html+='</div></div>';
+    });
+    document.getElementById("hg-tables").innerHTML=html;
+  };
+})();
+</script>
+<!-- End Hook Generator -->
+
 ### Adjective/Item (2D20)
 
 | D20    | ADJECTIVE | D20 | ADJECTIVE  | D20 | ITEM          | D20 | ITEM    |

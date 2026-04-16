@@ -224,38 +224,99 @@ The Guide may use the following table to create the beginning of a scenario, pro
 | **9**  | Hidden    | 19  | Frosted    | 9   | Mystery       | 19  | Statue  |
 | **10** | Ethereal  | 20  | Crimson    | 10  | Feud          | 20  | Pearl   |
 
-
+<!-- Adjective / Item Generator -->
 <style>
-.randgen{font-family:system-ui,sans-serif;padding:1rem 0}
-.randgen button{font-size:15px;padding:9px 22px;cursor:pointer;border:1px solid #aaa;border-radius:8px;background:#fff}
-.randgen button:hover{background:#f5f5f5}
-.randgen .out{background:#f8f7f4;border:1px solid #ddd;border-radius:10px;padding:1rem 1.2rem;margin:1rem 0;min-height:52px}
-.randgen .small{font-size:13px;color:#666}
-.randgen .big{font-size:15px;line-height:1.7}
+#adji-gen { font-family: var(--font-sans); padding: 1.5rem 0; }
+#adji-gen .result-block { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin: 1.25rem 0; min-height: 64px; }
+#adji-gen .hook-text { font-size: 16px; line-height: 1.7; color: var(--color-text-primary); }
+#adji-gen .hook-text span { font-weight: 500; }
+#adji-gen .adj { color: #533ab7; }
+#adji-gen .item { color: #0F6E56; }
+#adji-gen .table-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; margin-top: 1.25rem; }
+#adji-gen .col-card { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); overflow: hidden; }
+#adji-gen .col-header { padding: 6px 10px; font-size: 12px; font-weight: 500; letter-spacing: 0.02em; text-align: center; }
+#adji-gen .col-header.adj { background: #EEEDFE; color: #3C3489; }
+#adji-gen .col-header.item { background: #E1F5EE; color: #085041; }
+#adji-gen .col-body { padding: 8px 10px; }
+#adji-gen .col-body div { font-size: 12px; color: var(--color-text-secondary); padding: 2px 0; display: flex; gap: 6px; }
+#adji-gen .col-body div span.num { color: var(--color-text-tertiary); min-width: 22px; font-size: 11px; }
+#adji-gen .col-body div span.val { color: var(--color-text-primary); }
+#adji-gen .col-body div.highlight span.val { font-weight: 500; }
+#adji-gen .col-body div.highlight span.num { font-weight: 500; }
+#adji-gen .roll-tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: var(--border-radius-md); margin-left: 6px; vertical-align: middle; }
+#adji-gen .roll-tag.adj { background: #EEEDFE; color: #3C3489; }
+#adji-gen .roll-tag.item { background: #E1F5EE; color: #085041; }
+@media (max-width: 520px) { #adji-gen .table-grid { grid-template-columns: 1fr; } }
 </style>
 
-
-
-## Adjective / Item Generator
-
-(Existing table retained above)
-
-<div id="ai" class="randgen">
-<button onclick="aiRoll()">☴ Roll Adjective / Item</button>
-<div id="ai-out" class="out"><span class="small">Press the button.</span></div>
+<div id="adji-gen">
+  <h2 class="sr-only">Adjective Item Generator</h2>
+  <button id="adji-btn" onclick="adjiGenerate()" style="font-size: 15px; padding: 10px 24px; cursor: pointer;">Roll adjective / item</button>
+  <div class="result-block" id="adji-output">
+    <p style="font-size: 14px; color: var(--color-text-tertiary); margin: 0;">Press the button to generate an adjective and item.</p>
+  </div>
+  <div class="table-grid" id="adji-tables"></div>
 </div>
+
 <script>
-(function(){
-var a=[[1,'Ancient'],[2,'Sacred'],[3,'Mystical'],[4,'Enchanted'],[5,'Legendary'],[6,'Cursed'],[7,'Ornate'],[8,'Blessed'],[9,'Hidden'],[10,'Ethereal'],[11,'Forbidden'],[12,'Celestial'],[13,'Shadowy'],[14,'Radiant'],[15,'Phantom'],[16,'Worn'],[17,'Shimmering'],[18,'Obsidian'],[19,'Frosted'],[20,'Crimson']];
-var i=[[1,'Plague'],[2,'Rebellion'],[3,'Disappearance'],[4,'War'],[5,'Evacuation'],[6,'Murder'],[7,'Theft'],[8,'Kidnap'],[9,'Mystery'],[10,'Feud'],[11,'Toolkit'],[12,'Lantern'],[13,'Edict'],[14,'Scale'],[15,'Flute'],[16,'Mask'],[17,'Branch'],[18,'Banner'],[19,'Statue'],[20,'Pearl']];
-function d(n){return Math.floor(Math.random()*n)+1;}
-function f(t,n){for(var x=0;x<t.length;x++)if(t[x][0]===n)return t[x][1];}
-window.aiRoll=function(){
-var ar=d(20),ir=d(20);
-document.getElementById('ai-out').innerHTML='<div class="big">('+ar+'/'+ir+') <b>'+f(a,ar)+' '+f(i,ir)+'</b></div>';
+const adjiTables = {
+  adjective: [
+    [1,"Ancient"],[2,"Sacred"],[3,"Mystical"],[4,"Enchanted"],[5,"Legendary"],
+    [6,"Cursed"],[7,"Ornate"],[8,"Blessed"],[9,"Hidden"],[10,"Ethereal"],
+    [11,"Forbidden"],[12,"Celestial"],[13,"Shadowy"],[14,"Radiant"],[15,"Phantom"],
+    [16,"Worn"],[17,"Shimmering"],[18,"Obsidian"],[19,"Frosted"],[20,"Crimson"]
+  ],
+  item: [
+    [1,"Plague"],[2,"Rebellion"],[3,"Disappearance"],[4,"War"],[5,"Evacuation"],
+    [6,"Murder"],[7,"Theft"],[8,"Kidnap"],[9,"Mystery"],[10,"Feud"],
+    [11,"Toolkit"],[12,"Lantern"],[13,"Edict"],[14,"Scale"],[15,"Flute"],
+    [16,"Mask"],[17,"Branch"],[18,"Banner"],[19,"Statue"],[20,"Pearl"]
+  ]
 };
-})();
+
+function adjiRoll(n) { return Math.floor(Math.random() * n) + 1; }
+
+let adjiLast = {};
+
+function adjiGenerate() {
+  const adjRoll = adjiRoll(20);
+  const itemRoll = adjiRoll(20);
+  adjiLast = { adjRoll, itemRoll };
+
+  const adj = adjiTables.adjective.find(r => r[0] === adjRoll)[1];
+  const item = adjiTables.item.find(r => r[0] === itemRoll)[1];
+
+  document.getElementById("adji-output").innerHTML = `
+    <p class="hook-text">
+      The result is <span class="adj">${adj}</span>
+      <span class="roll-tag adj">${adjRoll}</span>
+      <span class="item">${item}</span>
+      <span class="roll-tag item">${itemRoll}</span>.
+    </p>`;
+
+  adjiRenderTables();
+}
+
+function adjiRenderTables() {
+  const cols = [
+    { key: "adj", label: "Adjective (d20)", data: adjiTables.adjective, roll: adjiLast.adjRoll },
+    { key: "item", label: "Item (d20)", data: adjiTables.item, roll: adjiLast.itemRoll }
+  ];
+
+  let html = "";
+  cols.forEach(col => {
+    html += `<div class="col-card"><div class="col-header ${col.key}">${col.label}</div><div class="col-body">`;
+    col.data.forEach(([num, val]) => {
+      const hi = num === col.roll ? " highlight" : "";
+      html += `<div class="${hi}"><span class="num">${num}</span><span class="val">${val}</span></div>`;
+    });
+    html += `</div></div>`;
+  });
+
+  document.getElementById("adji-tables").innerHTML = html;
+}
 </script>
+<!-- End Adjective / Item Generator -->
 
 ### Scenario Example
 
@@ -361,6 +422,239 @@ Roll d20 for each column and combine.
 | **19** | Share knowledge/beliefs | Requires a specialist of an uncommon sort. |
 | **20** | Survive | The outcome would lead to unavoidable conflict. |
 
+<!-- Faction Generator -->
+<style>
+#faction-gen { font-family: var(--font-sans); padding: 1.5rem 0; }
+#faction-gen .result-block { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin: 1.25rem 0; min-height: 64px; }
+#faction-gen .hook-text { font-size: 16px; line-height: 1.8; color: var(--color-text-primary); }
+#faction-gen .hook-text span { font-weight: 500; }
+#faction-gen .type { color: #0F6E56; }
+#faction-gen .trait { color: #533ab7; }
+#faction-gen .leader { color: #712B13; }
+#faction-gen .agent { color: #854f0b; }
+#faction-gen .perk { color: #085041; }
+#faction-gen .agenda { color: #3C3489; }
+#faction-gen .obstacle { color: #712B13; }
+#faction-gen .table-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; margin-top: 1.25rem; }
+#faction-gen .col-card { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); overflow: hidden; }
+#faction-gen .col-header { padding: 6px 10px; font-size: 12px; font-weight: 500; letter-spacing: 0.02em; text-align: center; }
+#faction-gen .col-header.type { background: #E1F5EE; color: #085041; }
+#faction-gen .col-header.trait { background: #EEEDFE; color: #3C3489; }
+#faction-gen .col-header.agent { background: #FAECE7; color: #712B13; }
+#faction-gen .col-header.perk { background: #FAEEDA; color: #633806; }
+#faction-gen .col-body { padding: 8px 10px; }
+#faction-gen .col-body div { font-size: 12px; color: var(--color-text-secondary); padding: 2px 0; display: flex; gap: 6px; }
+#faction-gen .col-body div span.num { color: var(--color-text-tertiary); min-width: 22px; font-size: 11px; }
+#faction-gen .col-body div span.val { color: var(--color-text-primary); }
+#faction-gen .col-body div.highlight span.val { font-weight: 500; }
+#faction-gen .col-body div.highlight span.num { font-weight: 500; }
+#faction-gen .roll-tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: var(--border-radius-md); margin-left: 6px; vertical-align: middle; }
+#faction-gen .roll-tag.type { background: #E1F5EE; color: #085041; }
+#faction-gen .roll-tag.trait { background: #EEEDFE; color: #3C3489; }
+#faction-gen .roll-tag.agent { background: #FAECE7; color: #712B13; }
+#faction-gen .roll-tag.perk { background: #FAEEDA; color: #633806; }
+#faction-gen ul { margin: 0.5rem 0 0 1.25rem; padding: 0; }
+#faction-gen li { margin: 0.2rem 0; }
+@media (max-width: 900px) { #faction-gen .table-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 520px) { #faction-gen .table-grid { grid-template-columns: 1fr; } }
+</style>
+
+<div id="faction-gen">
+  <h2 class="sr-only">Faction Generator</h2>
+  <button id="faction-btn" onclick="generateFaction()" style="font-size: 15px; padding: 10px 24px; cursor: pointer;">Generate faction</button>
+  <div class="result-block" id="faction-output">
+    <p style="font-size: 14px; color: var(--color-text-tertiary); margin: 0;">Press the button to generate a faction from all faction tables.</p>
+  </div>
+  <div class="table-grid" id="faction-tables"></div>
+</div>
+
+<script>
+const factionTables = {
+  type: [
+    [1,"Artisans"],[2,"Commoners"],[3,"Criminals"],[4,"Cultists"],[5,"Exiles"],
+    [6,"Explorers"],[7,"Industrialists"],[8,"Merchants"],[9,"Military"],[10,"Nobles"],
+    [11,"Nomads"],[12,"Pilgrims"],[13,"Protectors"],[14,"Religious"],[15,"Revolutionaries"],
+    [16,"Rulers"],[17,"Scholars"],[18,"Settlers"],[19,"Spies"],[20,"Tribe"]
+  ],
+  factionTrait: [
+    [1,"Bankrupt"],[2,"Cautious"],[3,"Charitable"],[4,"Cold"],[5,"Collaborative"],
+    [6,"Connected"],[7,"Corrupt"],[8,"Cruel"],[9,"Decadent"],[10,"Devious"],
+    [11,"Disciplined"],[12,"Efficient"],[13,"Enigmatic"],[14,"Expanding"],[15,"Generous"],
+    [16,"Greedy"],[17,"Honorable"],[18,"Hot Tempered"],[19,"Incompetent"],[20,"Incorruptible"]
+  ],
+  leaderTrait: [
+    [1,"Intellectual"],[2,"Lawless"],[3,"Manipulative"],[4,"Martial"],[5,"Mercurial"],
+    [6,"Pious"],[7,"Popular"],[8,"Proud"],[9,"Resourceful"],[10,"Righteous"],
+    [11,"Ruthless"],[12,"Secret"],[13,"Shrewd"],[14,"Stealthy"],[15,"Strong"],
+    [16,"Stubborn"],[17,"Suspicious"],[18,"Threatened"],[19,"Vengeful"],[20,"Xenophobic"]
+  ],
+  agent: [
+    [1,"Academic"],[2,"Assassin"],[3,"Blacksmith"],[4,"Farmer"],[5,"General"],
+    [6,"Gravedigger"],[7,"Guard/Soldier"],[8,"Healer"],[9,"Jailer"],[10,"Laborer"],
+    [11,"Lord"],[12,"Merchant"],[13,"Monk"],[14,"Mystic"],[15,"Outlander"],
+    [16,"Peddler"],[17,"Politician"],[18,"Spy"],[19,"Thief"],[20,"Thug"]
+  ],
+  perkCount: [
+    [[1,2,3,4,5,6,7],2],
+    [[8,9,10,11,12],2],
+    [[13,14,15,16,17],3],
+    [[18,19,20],4]
+  ],
+  perk: [
+    [1,"Alliances"],[2,"Anonymity"],[3,"Apparatus"],[4,"Beliefs"],[5,"Charisma"],
+    [6,"Conviction"],[7,"Fealty"],[8,"Force"],[9,"Information"],[10,"Lineage"],
+    [11,"Magic"],[12,"Members"],[13,"Popularity"],[14,"Position"],[15,"Renown"],
+    [16,"Resources"],[17,"Ruthlessness"],[18,"Specialization"],[19,"Subterfuge"],[20,"Wealth"]
+  ],
+  agenda: [
+    [1,"Acquire assets/wealth"],[2,"Control"],[3,"Defeat or destroy faction/leader"],[4,"Enrich members"],[5,"Exchange goods"],
+    [6,"Fame/Glory"],[7,"Forge an alliance"],[8,"Infiltrate faction"],[9,"Map the wild"],[10,"Overthrow order"],
+    [11,"Preserve lineage/lore"],[12,"Preserve the status quo/order"],[13,"Produce goods"],[14,"Protect/Reveal a secret"],[15,"Protect/defend themselves/something else"],
+    [16,"Purge/eliminate traitors and/or competition"],[17,"Revenge against a faction/leader"],[18,"Sell services/goods"],[19,"Share knowledge/beliefs"],[20,"Survive"]
+  ],
+  obstacle: [
+    [1,"A geographic barrier or impassable terrain."],
+    [2,"A key piece of information must first be discovered."],
+    [3,"A particular object or Relic is required."],
+    [4,"A powerful figure or foe must be eliminated."],
+    [5,"Many must die, either as necessity or consequence."],
+    [6,"A serious debt forces the faction to make dire choices."],
+    [7,"A well-known prophecy predicts imminent failure."],
+    [8,"An alliance with an enemy must first be brokered."],
+    [9,"An internal schism threatens to tear faction apart."],
+    [10,"Another faction has the same goal."],
+    [11,"Another faction stands in opposition."],
+    [12,"Vassals stand openly in opposition."],
+    [13,"Considerable capital is required."],
+    [14,"Hindered by cultural taboos."],
+    [15,"Contravenes an established code, with a heavy penalty."],
+    [16,"A rare but necessary resource must first be acquired."],
+    [17,"Must be carried out at a rare or exact moment."],
+    [18,"Must be carried out in absolute secrecy."],
+    [19,"Requires a specialist of an uncommon sort."],
+    [20,"The outcome would lead to unavoidable conflict."]
+  ]
+};
+
+function factionRoll(n) { return Math.floor(Math.random() * n) + 1; }
+
+function perkCountFromRoll(roll) {
+  for (const [rolls, val] of factionTables.perkCount) {
+    if (rolls.includes(roll)) return val;
+  }
+  return 2;
+}
+
+function uniqueRolls(max, count) {
+  const picks = [];
+  while (picks.length < count) {
+    const r = factionRoll(max);
+    if (!picks.includes(r)) picks.push(r);
+  }
+  return picks;
+}
+
+let factionLast = {};
+
+function generateFaction() {
+  const typeRoll = factionRoll(20);
+  const factionTraitRoll = factionRoll(20);
+  const leaderTraitRoll = factionRoll(20);
+  const agentRoll = factionRoll(20);
+  const perkCountRoll = factionRoll(20);
+  const perkTotal = perkCountFromRoll(perkCountRoll);
+  const perkRolls = uniqueRolls(20, perkTotal);
+  const agendaRoll = factionRoll(20);
+  const obstacleRoll = factionRoll(20);
+
+  factionLast = {
+    typeRoll, factionTraitRoll, leaderTraitRoll, agentRoll,
+    perkCountRoll, perkRolls, agendaRoll, obstacleRoll
+  };
+
+  const type = factionTables.type.find(r => r[0] === typeRoll)[1];
+  const factionTrait = factionTables.factionTrait.find(r => r[0] === factionTraitRoll)[1];
+  const leaderTrait = factionTables.leaderTrait.find(r => r[0] === leaderTraitRoll)[1];
+  const agent = factionTables.agent.find(r => r[0] === agentRoll)[1];
+  const perks = perkRolls.map(r => factionTables.perk.find(p => p[0] === r)[1]);
+  const agenda = factionTables.agenda.find(r => r[0] === agendaRoll)[1];
+  const obstacle = factionTables.obstacle.find(r => r[0] === obstacleRoll)[1];
+
+  document.getElementById("faction-output").innerHTML = `
+    <div class="hook-text">
+      <div>
+        <span class="type">${type}</span>
+        <span class="roll-tag type">${typeRoll}</span>
+      </div>
+      <div style="margin-top: 0.5rem;">
+        Faction Trait: <span class="trait">${factionTrait}</span>
+        <span class="roll-tag trait">${factionTraitRoll}</span><br>
+        Leader Trait: <span class="leader">${leaderTrait}</span>
+        <span class="roll-tag trait">${leaderTraitRoll}</span><br>
+        Agent: <span class="agent">${agent}</span>
+        <span class="roll-tag agent">${agentRoll}</span><br>
+        Perks (${perkTotal}):
+        <span class="perk">${perks.join(", ")}</span>
+        <span class="roll-tag perk">${perkRolls.join(", ")}</span><br>
+        Agenda: <span class="agenda">${agenda}</span>
+        <span class="roll-tag trait">${agendaRoll}</span><br>
+        Obstacle: <span class="obstacle">${obstacle}</span>
+        <span class="roll-tag agent">${obstacleRoll}</span>
+      </div>
+    </div>`;
+
+  renderFactionTables();
+}
+
+function renderFactionTables() {
+  const cols = [
+    { key: "type", label: "Faction Type (d20)", data: factionTables.type, roll: factionLast.typeRoll },
+    { key: "trait", label: "Faction Trait (d20)", data: factionTables.factionTrait, roll: factionLast.factionTraitRoll },
+    { key: "agent", label: "Leader Trait (d20)", data: factionTables.leaderTrait, roll: factionLast.leaderTraitRoll },
+    { key: "perk", label: "Agent (d20)", data: factionTables.agent, roll: factionLast.agentRoll }
+  ];
+
+  let html = "";
+  cols.forEach(col => {
+    html += `<div class="col-card"><div class="col-header ${col.key}">${col.label}</div><div class="col-body">`;
+    col.data.forEach(([num, val]) => {
+      const hi = num === col.roll ? " highlight" : "";
+      html += `<div class="${hi}"><span class="num">${num}</span><span class="val">${val}</span></div>`;
+    });
+    html += `</div></div>`;
+  });
+
+  html += `<div class="col-card"><div class="col-header perk">Perk Count / Perks</div><div class="col-body">`;
+  factionTables.perkCount.forEach(([rolls, val]) => {
+    const hi = rolls.includes(factionLast.perkCountRoll) ? " highlight" : "";
+    const label = rolls.length > 1 ? `${rolls[0]}-${rolls[rolls.length-1]}` : `${rolls[0]}`;
+    html += `<div class="${hi}"><span class="num">${label}</span><span class="val">${val} perks</span></div>`;
+  });
+  html += `<div style="height:8px;"></div>`;
+  factionTables.perk.forEach(([num, val]) => {
+    const hi = factionLast.perkRolls.includes(num) ? " highlight" : "";
+    html += `<div class="${hi}"><span class="num">${num}</span><span class="val">${val}</span></div>`;
+  });
+  html += `</div></div>`;
+
+  html += `<div class="col-card"><div class="col-header trait">Agenda (d20)</div><div class="col-body">`;
+  factionTables.agenda.forEach(([num, val]) => {
+    const hi = num === factionLast.agendaRoll ? " highlight" : "";
+    html += `<div class="${hi}"><span class="num">${num}</span><span class="val">${val}</span></div>`;
+  });
+  html += `</div></div>`;
+
+  html += `<div class="col-card"><div class="col-header agent">Obstacle (d20)</div><div class="col-body">`;
+  factionTables.obstacle.forEach(([num, val]) => {
+    const hi = num === factionLast.obstacleRoll ? " highlight" : "";
+    html += `<div class="${hi}"><span class="num">${num}</span><span class="val">${val}</span></div>`;
+  });
+  html += `</div></div>`;
+
+  document.getElementById("faction-tables").innerHTML = html;
+}
+</script>
+<!-- End Faction Generator -->
 
 ### Example Faction
 

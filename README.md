@@ -14,7 +14,7 @@ permalink: /
   <a href="https://serialprizes.itch.io/ikezu-ishi" target="_blank"><img src="https://img.itch.zone/aW1nLzE5MjgxMDE0LnBuZw==/original/FZJ0y4.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a>&nbsp;&nbsp;
   <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank"><img src="https://img.itch.zone/aW1nLzE5MjgxMDI4LnBuZw==/original/kH%2BKuW.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a>&nbsp;&nbsp;
   <a href="https://serialprizes.itch.io/locations-of-adventure" target="_blank"><img src="https://img.itch.zone/aW1hZ2UvMzIyNzU1MS8xOTI4MDk1MC5wbmc=/original/LNq6AU.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;">&nbsp;</a>&nbsp;&nbsp;
-  <a href="https://serialprizes.itch.io/kuroru" target="_blank"><img width="120px" src="https://img.itch.zone/aW1nLzIwMjYxMTM3LnBuZw==/original/kHAMQB.png style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a>&nbsp;&nbsp;
+  <a href="https://serialprizes.itch.io/kuroru" target="_blank"><img src="https://img.itch.zone/aW1nLzIwMjYxMTM3LnBuZw==/original/kHAMQB.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a>&nbsp;&nbsp;
   <a href="https://serialprizes.itch.io/gishiki" target="_blank"><img src="https://img.itch.zone/aW1nLzIwOTU3OTAyLnBuZw==/original/JFYvMj.png" width="120px" style="cursor: pointer; max-width: 100%; vertical-align: middle; height: auto !important;"></a></p>
 
 <i>This page is work in progress to replicate the rules available in the PDFs above.</i> 

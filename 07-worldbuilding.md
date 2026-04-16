@@ -136,6 +136,78 @@ The Guide may use the following table to create the beginning of a scenario, pro
 | **9** | Shimmering | 19 | Legendary | 9 | Forest | 19 | Hot Springs | 9 | Perform a ritual |
 | **10** | Ethereal | 20 | Blessed | 10 | Lake | 20 | Pagoda | 10 | Find item (roll Adjective/Item Table) |
 
+<!-- Feudal Japan RPG Mission Generator -->
+<style>
+#mg { font-family: system-ui, sans-serif; padding: 1.25rem 0; }
+#mg button { font-size: 15px; padding: 9px 22px; cursor: pointer; border: 1px solid #aaa; border-radius: 8px; background: #fff; }
+#mg button:hover { background: #f5f5f5; }
+#mg .result-block { background: #f8f7f4; border: 1px solid #ddd; border-radius: 10px; padding: 1.1rem 1.4rem; margin: 1.1rem 0; min-height: 58px; }
+#mg .hook-text { font-size: 15px; line-height: 1.75; margin: 0; color: #1a1a1a; }
+#mg .hook-text b.adj { color: #533ab7; }
+#mg .hook-text b.loc { color: #0F6E56; }
+#mg .hook-text b.act { color: #993c1d; }
+#mg .roll-tag { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 6px; margin-left: 4px; vertical-align: middle; font-weight: normal; }
+#mg .rt-adj { background: #EEEDFE; color: #3C3489; }
+#mg .rt-loc { background: #E1F5EE; color: #085041; }
+#mg .rt-act { background: #FAECE7; color: #712B13; }
+#mg .note { font-size: 13px; color: #666; margin: 0.5rem 0 0; }
+#mg .table-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 1rem; }
+#mg .col-card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; font-size: 12px; }
+#mg .col-header { padding: 5px 9px; font-size: 11px; font-weight: 600; text-align: center; }
+#mg .h-adj { background: #EEEDFE; color: #3C3489; }
+#mg .h-loc { background: #E1F5EE; color: #085041; }
+#mg .h-act { background: #FAECE7; color: #712B13; }
+#mg .col-body { padding: 6px 9px; }
+#mg .row { display: flex; gap: 6px; padding: 2px 0; color: #555; }
+#mg .row .n { min-width: 22px; font-size: 10px; color: #aaa; }
+#mg .row .v { color: #222; }
+#mg .row.hi .n, #mg .row.hi .v { font-weight: 700; color: #1a1a1a; }
+@media (max-width: 480px) { #mg .table-grid { grid-template-columns: 1fr; } }
+</style>
+
+<div id="mg">
+  <button onclick="mgGen()">&#x2684; Roll the mission</button>
+  <div class="result-block" id="mg-out">
+    <p style="font-size:13px;color:#999;margin:0;">Press the button to generate a mission.</p>
+  </div>
+  <div class="table-grid" id="mg-tables"></div>
+</div>
+
+<script>
+(function(){
+  var adj = [[1,"Ancient"],[2,"Sacred"],[3,"Forbidden"],[4,"Hidden"],[5,"Mystical"],[6,"Cursed"],[7,"Celestial"],[8,"Haunted"],[9,"Shimmering"],[10,"Ethereal"],[11,"Radiant"],[12,"Shadowy"],[13,"Frosted"],[14,"Ornate"],[15,"Crumbling"],[16,"Verdant"],[17,"Obsidian"],[18,"Crimson"],[19,"Legendary"],[20,"Blessed"]];
+  var loc = [[1,"Shrine"],[2,"Cave"],[3,"Temple"],[4,"Grove"],[5,"Fortress"],[6,"Battlefield"],[7,"Waterfall"],[8,"Village"],[9,"Forest"],[10,"Lake"],[11,"Tomb"],[12,"Cliffside"],[13,"Island"],[14,"Mountain"],[15,"Pass"],[16,"Garden"],[17,"Ruins"],[18,"Riverbank"],[19,"Hot Springs"],[20,"Pagoda"]];
+  var act = [[1,"Capture a foe"],[2,"Defeat an enemy"],[3,"Rescue a captive"],[4,"Gather intelligence"],[5,"Win a contest"],[6,"Act as escort"],[7,"Deliver a message"],[8,"Negotiate"],[9,"Perform a ritual"],[10,"Find an item (roll Adjective/Item table)"]];
+
+  function d(n){ return Math.floor(Math.random()*n)+1; }
+  function find(t,n){ for(var i=0;i<t.length;i++) if(t[i][0]===n) return t[i][1]; return "?"; }
+
+  window.mgGen = function(){
+    var ar=d(20), lr=d(20), acr=d(10);
+    var adjVal=find(adj,ar), locVal=find(loc,lr), actVal=find(act,acr);
+    var isFind = acr===10;
+    var note = isFind ? '<p class="note">&#x2605; Roll on the Adjective/Item table to determine what must be found.</p>' : '';
+    document.getElementById("mg-out").innerHTML =
+      '<p class="hook-text">Players must go to <b class="adj">'+adjVal+'</b><span class="roll-tag rt-adj">'+ar+'</span> <b class="loc">'+locVal+'</b><span class="roll-tag rt-loc">'+lr+'</span> and <b class="act">'+actVal+'</b><span class="roll-tag rt-act">'+acr+'</span>.</p>'+note;
+
+    var cols=[
+      {hcls:"h-adj",label:"Adjective (d20)",data:adj,roll:ar},
+      {hcls:"h-loc",label:"Location (d20)",data:loc,roll:lr},
+      {hcls:"h-act",label:"Action (d10)",data:act,roll:acr}
+    ];
+    var html="";
+    cols.forEach(function(col){
+      html+='<div class="col-card"><div class="col-header '+col.hcls+'">'+col.label+'</div><div class="col-body">';
+      col.data.forEach(function(r){
+        html+='<div class="row'+(r[0]===col.roll?' hi':'')+'"><span class="n">'+r[0]+'</span><span class="v">'+r[1]+'</span></div>';
+      });
+      html+='</div></div>';
+    });
+    document.getElementById("mg-tables").innerHTML=html;
+  };
+})();
+</script>
+<!-- End Mission Generator -->
 
 ### Adjective/Item (2D20)
 

@@ -37,21 +37,6 @@ The Guide may use the following table to create the beginning of a scenario, pro
 | **9**  | Armory    | 9   | Stranger          | 9   | Mystery       |     |               |
 | **10** | Port      | 10  | Daimyo’s Emissary | 10  | Feud          |     |               |
 
-### Players must go to \[ADJECTIVE\] \[LOCATION\] and \[ACTION\].
-
-| D20 | ADJECTIVE | D20 | ADJECTIVE | D20 | LOCATION | D20 | LOCATION | D10 | ACTION |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **1** | Ancient | 11 | Radiant | 1 | Shrine | 11 | Tomb | 1 | Capture foe |
-| **2** | Sacred | 12 | Shadowy | 2 | Cave | 12 | Cliffside | 2 | Defeat an enemy |
-| **3** | Forbidden | 13 | Frosted | 3 | Temple | 13 | Island | 3 | Rescue a captive |
-| **4** | Hidden | 14 | Ornate | 4 | Grove | 14 | Mountain | 4 | Gather intelligence |
-| **5** | Mystical | 15 | Crumbling | 5 | Fortress | 15 | Pass | 5 | Win contest |
-| **6** | Cursed | 16 | Verdant | 6 | Battlefield | 16 | Garden | 6 | Act as escort |
-| **7** | Celestial | 17 | Obsidian | 7 | Waterfall | 17 | Ruins | 7 | Deliver a message |
-| **8** | Haunted | 18 | Crimson | 8 | Village | 18 | Riverbank | 8 | Negotiate |
-| **9** | Shimmering | 19 | Legendary | 9 | Forest | 19 | Hot Springs | 9 | Perform a ritual |
-| **10** | Ethereal | 20 | Blessed | 10 | Lake | 20 | Pagoda | 10 | Find item (roll Adjective/Item Table) |
-
 <!-- Feudal Japan RPG Hook Generator -->
 <style>
 #hook-gen { font-family: system-ui, sans-serif; padding: 1.25rem 0; }
@@ -135,6 +120,22 @@ The Guide may use the following table to create the beginning of a scenario, pro
 })();
 </script>
 <!-- End Hook Generator -->
+
+### Players must go to \[ADJECTIVE\] \[LOCATION\] and \[ACTION\].
+
+| D20 | ADJECTIVE | D20 | ADJECTIVE | D20 | LOCATION | D20 | LOCATION | D10 | ACTION |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| **1** | Ancient | 11 | Radiant | 1 | Shrine | 11 | Tomb | 1 | Capture foe |
+| **2** | Sacred | 12 | Shadowy | 2 | Cave | 12 | Cliffside | 2 | Defeat an enemy |
+| **3** | Forbidden | 13 | Frosted | 3 | Temple | 13 | Island | 3 | Rescue a captive |
+| **4** | Hidden | 14 | Ornate | 4 | Grove | 14 | Mountain | 4 | Gather intelligence |
+| **5** | Mystical | 15 | Crumbling | 5 | Fortress | 15 | Pass | 5 | Win contest |
+| **6** | Cursed | 16 | Verdant | 6 | Battlefield | 16 | Garden | 6 | Act as escort |
+| **7** | Celestial | 17 | Obsidian | 7 | Waterfall | 17 | Ruins | 7 | Deliver a message |
+| **8** | Haunted | 18 | Crimson | 8 | Village | 18 | Riverbank | 8 | Negotiate |
+| **9** | Shimmering | 19 | Legendary | 9 | Forest | 19 | Hot Springs | 9 | Perform a ritual |
+| **10** | Ethereal | 20 | Blessed | 10 | Lake | 20 | Pagoda | 10 | Find item (roll Adjective/Item Table) |
+
 
 ### Adjective/Item (2D20)
 

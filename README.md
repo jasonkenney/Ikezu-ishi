@@ -35,6 +35,10 @@ Ikezu-Ishi is licensed under CC-BY-SA 4.0. You are free to copy, redistribute, r
 - Physical copies are available through <a href="https://a.co/d/gtLPBEf" target="_blank">Amazon</a>
 
 ## Also available: 
-- <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank">Defenders of&nbsp;Koganemura</a>&nbsp;-&nbsp;A Seven Samurai Inspired Adventure for Ikezu-Ishi.
+- <a href="https://serialprizes.itch.io/iia1-defenders-of-koganemura" target="_blank">Defenders of Koganemura</a>&nbsp;-&nbsp;A Seven Samurai Inspired Adventure for Ikezu-Ishi.
 
-- <a href="https://serialprizes.itch.io/locations-of-adventure" target="_blank">Locations of Adventure</a>&nbsp;<em>-</em>&nbsp;20 locations and settings for Ikezu-Ishi and any other system.
+- <a href="https://serialprizes.itch.io/locations-of-adventure" target="_blank">Locations of Adventure</a>&nbsp;-&nbsp;20 locations and settings for Ikezu-Ishi and any other system.
+
+- <a href="https://serialprizes.itch.io/kuroru" target="_blank">Kuroru</a>&nbsp;-&nbsp;A fantasy Japan inspired hexcrawl generator.
+
+- <a href="https://serialprizes.itch.io/gishiki" target="_blank">Gishiki</a>&nbsp;-&nbsp;Magic in Ikezu-Ishi. Based on "Glog Magic Hack for Cairn" and allows any PC to craft and use rites, but sometimes at terrible costs.

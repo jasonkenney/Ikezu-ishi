@@ -227,6 +227,7 @@ The Guide may use the following table to create the beginning of a scenario, pro
 <!-- Adjective / Item Generator -->
 <style>
 #adji-gen { font-family: var(--font-sans); padding: 1.5rem 0; }
+#adji-gen button { font-size: 15px; padding: 9px 22px; cursor: pointer; border: 1px solid #aaa; border-radius: 8px; background: #fff; }
 #adji-gen .result-block { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin: 1.25rem 0; min-height: 64px; }
 #adji-gen .hook-text { font-size: 16px; line-height: 1.7; color: var(--color-text-primary); }
 #adji-gen .hook-text span { font-weight: 500; }
@@ -250,7 +251,6 @@ The Guide may use the following table to create the beginning of a scenario, pro
 </style>
 
 <div id="adji-gen">
-  <h2 class="sr-only">Adjective Item Generator</h2>
   <button id="adji-btn" onclick="adjiGenerate()" style="font-size: 15px; padding: 10px 24px; cursor: pointer;">Roll adjective / item</button>
   <div class="result-block" id="adji-output">
     <p style="font-size: 14px; color: var(--color-text-tertiary); margin: 0;">Press the button to generate an adjective and item.</p>
@@ -288,7 +288,7 @@ function adjiGenerate() {
 
   document.getElementById("adji-output").innerHTML = `
     <p class="hook-text">
-      The result is <span class="adj">${adj}</span>
+      <span class="adj">${adj}</span>
       <span class="roll-tag adj">${adjRoll}</span>
       <span class="item">${item}</span>
       <span class="roll-tag item">${itemRoll}</span>.
@@ -425,6 +425,7 @@ Roll d20 for each column and combine.
 <!-- Faction Generator -->
 <style>
 #faction-gen { font-family: var(--font-sans); padding: 1.5rem 0; }
+#hook-gen button { font-size: 15px; padding: 9px 22px; cursor: pointer; border: 1px solid #aaa; border-radius: 8px; background: #fff; }
 #faction-gen .result-block { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin: 1.25rem 0; min-height: 64px; }
 #faction-gen .hook-text { font-size: 16px; line-height: 1.8; color: var(--color-text-primary); }
 #faction-gen .hook-text span { font-weight: 500; }
@@ -460,7 +461,6 @@ Roll d20 for each column and combine.
 </style>
 
 <div id="faction-gen">
-  <h2 class="sr-only">Faction Generator</h2>
   <button id="faction-btn" onclick="generateFaction()" style="font-size: 15px; padding: 10px 24px; cursor: pointer;">Generate faction</button>
   <div class="result-block" id="faction-output">
     <p style="font-size: 14px; color: var(--color-text-tertiary); margin: 0;">Press the button to generate a faction from all faction tables.</p>
@@ -582,7 +582,7 @@ function generateFaction() {
 
   document.getElementById("faction-output").innerHTML = `
     <div class="hook-text">
-      <div>
+      <div>A Faction of 
         <span class="type">${type}</span>
         <span class="roll-tag type">${typeRoll}</span>
       </div>
